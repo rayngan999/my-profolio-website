@@ -18,7 +18,11 @@ const StyledLink = styled(Link)`
   
   margin-bottom: 1rem;
   margin-left: 3rem;
+  
   transition: all ${props => props.theme.transitions.default.duration};
+  @media screen and (max-width:640px) {
+      display: none !important;
+  }
   
 `;
 
@@ -41,6 +45,11 @@ const Nav = styled.nav`
       opacity: 0.65;
     }
   }
+  @media screen and (max-width:640px) {
+    padding-left:12%;
+    padding-right:15%;
+    padding-top:6%
+}
 `;
 
 

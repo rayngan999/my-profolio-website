@@ -1,18 +1,15 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import PropTypes from 'prop-types';
-import { Header } from 'components';
-import { Layout, Container } from 'layouts';
+import { Layout } from 'layouts';
 import data from "../yourdata"
-import styled from '@emotion/styled';
-import { css } from '@emotion/core';
+
 
 
 const Index = center => (
    
 
   <Layout>
-    
+    <Helmet title={'Ray Ngan'} />
     <div className="container">
         <div className="index-wrapper">
           

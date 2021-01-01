@@ -24,7 +24,7 @@ const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
-      <Helmet title={''} />
+      <Helmet title={'Ray Ngan'} />
       <Header title=""></Header>
       <PostWrapper>
         {edges.map(({ node }) => {

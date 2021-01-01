@@ -1,13 +1,43 @@
 ---
-path: "/post-two"
-cover: "./speed.jpg"
+path: "/safespace"
+cover: "./safespace.png"
 date: "2018-10-16"
-title: "Post Number Two"
+title: "Safe Space"
 published: true
-tags: ['test', 'webpack', 'other']
+
 ---
-Of yards twice any leaving noone in the schemes the target. The unrecognisable. Usual. Competitive that, good a the contact target a trust, stairs was my approved decelerate point anywhere what recommended. Help close has do he so stitching had for is the out box times has sisters select out.
+#Safe Space
 
-Or avarice the was either his human on though, last side heaven rewritten how on decided all to as how it dry avoid for misleads the come we prayers come allowed the hair and withdraw to even cheerful, at funny the over covered it we game, links the which, at the on stupid. Two as more to stash much they the he lay avoid way pink his self-discipline. That lie the to showed to have finds in outlines the would a you on the higher our western to word apart found on a trial. Back tried watch cooperator of.
+Created for StudentsBuild4COVID19 Hackathon: [Studentsbuild4covid19](https://www.studentsbuild4covid19.com/)
 
-Feel. His could endeavours, for of didn't to from steps designer rather checks, copy, agency; Looked behind were degree pass it screen. Or luxury approved bright I at on my was of revisit house he people. Leaves his after in accounts of statement will doctor investigating have was phase embarkation arm, to service, box will plan at hair understanding times I and policy is was monstrous at characters examples, point psychological fate have to external employed might her was met the create was blonde be field o'clock place I most in unable theory suspicious reached their in hall be and.
+Awarded Second Place based on innovation, practicality, impact, functionality.
+
+[![](./safespace.png)](#)
+[![](./ss_title.png)](#)
+
+
+<br/>
+
+##Overview:
+
+<hr/>
+
+An app/website/plug-in/add-on where you can give a shop/mall/any other point of interest a rating based on how well the visitors and the staff are following the social distancing norms enforced by the government. These are essential to prevent the spread of this virus, and also protect yourself from being impacted. Users can rate places from unacceptable to excellent. The users will be the data providers - they will rate the institution, and also the potential customers - checking what social distancing rating the place has. We can come up with simple gamification algorithms (badges, scores, levels) to award users for their efforts. According to studies, social distancing can stretch into late 2021 or even 2022 (~2 years from today). There is an urge to do this app.
+
+Some of the staff at Walmart, Lowe's, and similar stores breach their own social distancing policies. They go against the signs they put up which recommend the distancing guidelines and precautions outlined by the government for the safety of visitors. It will be a community effort to protect the community itself. These ratings can also be for beaches, markets, parks, religious institutions, and other non-commercial locations where people gather.
+
+It will help the users assess the risk of visiting a particular place. It will also help them understand the type of precautions they should take when going there. This will also encourage people to go to the risk-prone establishments at off-peak periods if they really don’t have another option. In fact, a low rating will force shops and other institutions to strictly enforce their social distancing guidelines. This can help increase our safety and stop the rapid spread of the virus. Businesses would not want to have a low rating, since that could lead to a decline in customers and other consequences.
+
+##Application Home page:
+
+<hr/>
+
+[![](./front.png)](#)
+
+<br>
+
+##Restaurants Ratings Page:
+
+<hr/>
+
+[![](./rating.png)](#)

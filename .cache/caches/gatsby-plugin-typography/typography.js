@@ -1,0 +1,1 @@
+module.exports = require("/Users/rayngan/Desktop/my-profolio-website/config/typography.js")

@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import theme from '../../config/theme';
 
 const Wrapper = styled.article`
+
   margin-bottom: 1.5rem;
   position: relative;
   z-index: 100;

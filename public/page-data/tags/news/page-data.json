@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-tag-jsx","path":"/tags/news","result":{"pageContext":{"posts":[{"frontmatter":{"path":"/post-three","title":"Post Number Three","tags":["gatsby","news","other"]}}],"tagName":"news"}},"staticQueryHashes":["1830426702"]}
+{"componentChunkName":"component---src-templates-tag-jsx","path":"/tags/news","result":{"pageContext":{"posts":[{"frontmatter":{"path":"/fingerprinting-research","title":"Fingerprinting Research","tags":["gatsby","news","other"]}}],"tagName":"news"}},"staticQueryHashes":["1830426702"]}

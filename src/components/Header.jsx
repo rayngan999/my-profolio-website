@@ -4,16 +4,7 @@ import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 
 const Wrapper = styled.header`
-
-
   height:0px;
-  @media (max-width: ${props => props.theme.breakpoints.m}) {
-    height: 300px;
-  }
-  @media (max-width: ${props => props.theme.breakpoints.s}) {
-    height: 275px;
-  }
-  
   overflow: hidden;
 `;
 

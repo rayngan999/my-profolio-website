@@ -13,7 +13,7 @@ const Tags = ({ pageContext }) => {
         <TagsBlock list={tags} />
       </Container>
     </Layout>
-  );
+  ); 
 };
 
 export default Tags;

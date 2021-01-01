@@ -59,7 +59,6 @@ export const query = graphql`
           frontmatter {
             title
             path
-            tags
             date(formatString: "MM.DD.YYYY")
             cover {
               childImageSharp {

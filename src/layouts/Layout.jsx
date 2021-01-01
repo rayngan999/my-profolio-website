@@ -5,10 +5,10 @@ import PropTypes from 'prop-types';
 import 'typeface-open-sans';
 import 'typeface-candal';
 import { SEO } from 'components';
-import { NavBar, Footer } from 'layouts';
+import { NavBar } from 'layouts';
 import theme from '../../config/theme';
 import headroom from '../styles/headroom';
-import { Container } from "react-bootstrap"
+
 
 
 const Layout = ({ children }) => (
@@ -56,50 +56,11 @@ const Layout = ({ children }) => (
           h1 {
             font-family: Nunito,Avenir,Helvetica,"sans-serif";
           }
-          .skills-container {
-            margin-left: 10vh;
-            margin-right: 10vh;
-            margin-top: 10vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            h1 {
-              font-size: 3rem;
-              line-height: 20px;
-            }
           
-            .skills-grid {
-              display: grid;
-              grid-template-columns: repeat(3, 1fr);
-              margin-top: 50px;
-              grid-gap: 20px;
-              @include media(">=phone", "<lgphone") {
-                grid-template-columns: 1fr;
-              }
-              @include media(">=lgphone", "<tablet") {
-                grid-template-columns: 1fr;
-              }
-              @include media(">=tablet", "<desktop") {
-                grid-template-columns: 1fr 1fr;
-              }
-              .skill {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                img {
-                  height: 3rem;
-                }
-                p {
-                  font-size: 14px;
-                }
-              }
-            }
-          }
           
          
           .index-wrapper {
-            padding-top:7%;
+            padding-top:6.5%;
             margin-top: 10vh;
             margin-bottom: 10vh;
             display: flex;
@@ -142,8 +103,9 @@ const Layout = ({ children }) => (
               font-size: 1.3rem;
             }
           }
-          .work-wrapper {
-            width: 80vw;
+          .skills-container {
+            margin-left: 10vh;
+            margin-right: 10vh;
             margin-top: 10vh;
             display: flex;
             flex-direction: column;
@@ -151,12 +113,30 @@ const Layout = ({ children }) => (
             h1 {
               font-size: 3rem;
               line-height: 20px;
+        
             }
-            .grid {
+          
+            .skills-grid {
               display: grid;
-              margin-top: 20px;
-              grid-template-columns: repeat(3, 1fr);
-              grid-gap: 10px;
+              
+              margin-top: 50px;
+              grid-gap: 20px;
+              
+            grid-template-columns: repeat(6, 1fr);
+        
+              @media screen and (max-width:1135px) {
+                grid-template-columns: repeat(5, 1fr);
+            }
+            @media screen and (max-width:935px) {
+              grid-template-columns: repeat(4, 1fr);
+          }
+          @media screen and (max-width:790px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media screen and (max-width:640px) {
+          grid-template-columns: repeat(2, 1fr);
+      }
+
               @include media(">=phone", "<lgphone") {
                 grid-template-columns: 1fr;
               }
@@ -166,15 +146,88 @@ const Layout = ({ children }) => (
               @include media(">=tablet", "<desktop") {
                 grid-template-columns: 1fr 1fr;
               }
+              .skill {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                img {
+                  height: 3rem;
+                }
+                p {
+                  font-size: 14px;
+                }
+              }
             }
           }
+          .about-section {
+            width: 80vw;
+            margin-top: 10vh;
+            margin-left: 30vh;
+            margin-right: 30vh;
+            display: flex;
+            
+            justify-content: space-between;
+            @include media(">=phone", "<lgphone") {
+              flex-direction: column-reverse;
+            }
+            @include media(">=lgphone", "<tablet") {
+              flex-direction: column-reverse;
+            }
+            @include media(">=tablet", "<desktop") {
+              flex-direction: column-reverse;
+              align-items: center;
+            }
+            .content {
+              width: 50%;
+              @include media(">=phone", "<lgphone") {
+                width: 100%;
+              }
+              @include media(">=lgphone", "<tablet") {
+                width: 100%;
+              }
+              @include media(">=tablet", "<desktop") {
+                width: 100%;
+              }
+          
+              h1 {
+                font-size: 3rem;
+                line-height: 20px;
+                @include media(">=tablet", "<desktop") {
+                  text-align: center;
+                }
+              }
+              p {
+                @include media(">=tablet", "<desktop") {
+                  text-align: center;
+                }
+              }
+            }
+            .image-wrapper {
+              width: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              overflow: hidden;
+              @include media(">=phone", "<lgphone") {
+                width: 100%;
+              }
+              @include media(">=lgphone", "<tablet") {
+                width: 100%;
+              }
+              @include media(">=tablet", "<desktop") {
+                width: 100%;
+              }
+            }
+          }
+          
           ${headroom}
         `}
       />
       <SEO />
       <NavBar />
       {children}
-      <Footer />
+      
     </Fragment>
   </ThemeProvider>
 );
