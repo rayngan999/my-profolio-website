@@ -8,7 +8,7 @@ import data from "../yourdata"
 const Index = center => (
   
   <Layout>
-    <Helmet title={'Ray Ngan'} />
+    <Helmet title={'Home'} />
     <div className="container">
         <div className="index-wrapper">
           

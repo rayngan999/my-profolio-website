@@ -116,7 +116,7 @@ const Skills= styled.div`
 `;
 const About = center => (
   <Layout>
-    <Helmet title={'Ray Ngan'} />
+    <Helmet title={'About Me'} />
     <div className="section">
       <div className="container">
         
