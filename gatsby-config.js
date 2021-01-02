@@ -2,7 +2,11 @@ const config = require('./config/site');
 
 module.exports = {
   siteMetadata: {
-    ...config,
+    title: "Ray Ngan", // Navigation and Site Title
+  titleAlt: 'Ray Ngan', // Title for JSONLD
+  description: "Ray Ngan's Portfolio Website",
+  url: 'https://rayngan.gtsb.io/', // Doma,
+  favicon: 'static/logo/favicon.png'
   },
   plugins: [
     {
