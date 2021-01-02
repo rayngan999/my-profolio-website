@@ -67,7 +67,7 @@ const NavBar = () => (
     <Link to="/">Home</Link>
       <Link to="/project">Project</Link>
       {/*<Link to="/blog">Blog</Link>*/}
-      <Link to="/about">About Me</Link>
+      <Link to="/about">About</Link>
     </Nav>
     </div>
     
