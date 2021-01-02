@@ -142,6 +142,9 @@ const About = center => (
           </Half>
 
           <br></br>
+          <br></br>
+          <br></br>
+          
         <SkillsContainer>
           <h1 id ='title2'>Skills</h1>
           <br></br>
