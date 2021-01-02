@@ -16,7 +16,8 @@ module.exports = {
   shortName: 'Ray', // shortname for manifest. MUST be shorter than 12 characters
   author: 'Ray', // Author for schemaORGJSONLD
   themeColor: '#3e7bf2',
-  backgroundColor: '#d3e0ff'
+  backgroundColor: '#d3e0ff',
+  twitter:'https://twitter.com/Rayngan999'
   },
   plugins: [
     {
