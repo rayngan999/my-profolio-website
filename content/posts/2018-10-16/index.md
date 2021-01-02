@@ -1,6 +1,6 @@
 ---
 path: "/bitproject"
-cover: "./bitproject.jpg"
+cover: "https://i.ibb.co/K5czxVc/bitproject.png"
 date: "2018-10-16"
 title: "BitProject"
 tags: ["Home"]
