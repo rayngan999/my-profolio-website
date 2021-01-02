@@ -13,7 +13,7 @@ const Half = styled.div`
   display: flex;
   padding-top:3%;
   justify-content: space-between;
-  @include media(">=phone", "<lgphone") {
+  @media screen and (max-width:600px) {
     padding-top:7%;
   }
   
