@@ -27,6 +27,62 @@ const Half = styled.div`
 
 `;
 
+const Content = styled.div`
+
+
+  width: 50%;
+  @media screen and (max-width:1100px) {
+    width: 100%;
+}
+  @include media(">=phone", "<lgphone") {
+    width: 100%;
+  }
+  @include media(">=lgphone", "<tablet") {
+    width: 100%;
+  }
+  @include media(">=tablet", "<desktop") {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
+    @include media(">=tablet", "<desktop") {
+      text-align: center;
+    }
+  }
+  p {
+    @include media(">=tablet", "<desktop") {
+      text-align: center;
+    }
+    
+  }
+
+
+`;
+
+const ImageWrapper = styled.div`
+
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  @include media(">=phone", "<lgphone") {
+    width: 100%;
+  }
+  @include media(">=lgphone", "<tablet") {
+    width: 100%;
+  }
+  @include media(">=tablet", "<desktop") {
+    width: 100%;
+  }
+  @media screen and (max-width:1100px) {
+    display: none !important;
+}
+
+`;
+
 
 const About = center => (
   <Layout>
@@ -36,7 +92,7 @@ const About = center => (
         
       <div className="skills-container">
       <Half>
-          <div className="content">
+          <Content>
               <h1>About Me</h1>
               <br></br>
             <p>
@@ -48,10 +104,10 @@ const About = center => (
               <br></br>
               {data.aboutParaThree}
             </p>
-          </div>
-          <div className="image-wrapper">
+          </Content>
+          <ImageWrapper>
             <img src={data.aboutImage} alt="about"></img>
-          </div>
+          </ImageWrapper>
         
           </Half>
           <br></br>
