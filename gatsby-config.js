@@ -58,10 +58,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: config.title,
-        short_name: config.shortName,
-        description: config.description,
-        start_url: config.pathPrefix,
+        name: "Ray Ngan",
+        short_name: "Ray",
+        description: "Ray Ngan's Portfolio Website",
+        start_url: 'https://rayngan.gtsb.io/',
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
