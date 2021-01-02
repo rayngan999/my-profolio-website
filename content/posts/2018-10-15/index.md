@@ -1,6 +1,6 @@
 ---
 path: "/safespace"
-cover: "https://i.ibb.co/z8M38js/safespace.png"
+cover: "./safespace.png"
 date: "2018-10-15"
 title: "Safe Space"
 tags: ["HOME"]

@@ -1,6 +1,6 @@
 ---
 path: "/fingerprinting-research"
-cover: "https://i.ibb.co/zJTtvbP/fingerprint2.jpg"
+cover: "./fingerprint2.jpg"
 date: "2018-10-17"
 title: "Fingerprinting Research"
 tags: []
