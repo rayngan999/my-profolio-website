@@ -6,8 +6,7 @@
   "homepage": "https://rayngan.gtsb.io/",
   "license": "MIT",
   "version": "0.0.7",
-  "repository": {
-  },
+  "repository": {},
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
@@ -72,6 +71,6 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-   "rayngan"
+    "rayngan"
   ]
 }
