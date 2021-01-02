@@ -1,10 +1,10 @@
 ---
 path: "/fingerprinting-research"
-cover: "./fingerprint.jpg"
+cover: "./fingerprint2.jpg"
 date: "2018-10-17"
 title: "Fingerprinting Research"
 tags: []
-published: truew
+published: true
 ---
 
 [![](./UC-Davis-Logo.png)](#)

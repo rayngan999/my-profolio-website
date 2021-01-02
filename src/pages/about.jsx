@@ -12,9 +12,11 @@ const About = center => (
     <div className="section">
       <div className="container">
         
+      <div className="skills-container">
       <div className="about-section">
           <div className="content">
               <h1>About Me</h1>
+              <br></br>
             <p>
               {data.aboutParaOne}
               <br></br>
@@ -28,10 +30,12 @@ const About = center => (
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>
           </div>
-        </div>
-      
-        <div className="skills-container">
-          <h1>Skills</h1>
+        
+          </div>
+          <br></br>
+        
+          <h1 id ='title2'>Skills</h1>
+          <br></br>
           <div className="skills-grid">
             {data.skills.map(skill => (
               <div className="skill" key={skill.id}>
@@ -42,7 +46,7 @@ const About = center => (
           </div>
         </div>
       </div>
-    </div>
+      </div>
   </Layout>
 );
 

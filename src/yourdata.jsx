@@ -6,7 +6,6 @@ import cppIcon from "./images/c++.png"
 import cIcon from "./images/c.png"
 import pythonIcon from "./images/python.png"
 import rIcon from "./images/r.svg"
-import photoshopIcon from "./images/photoshop.png"
 import bootstrapIcon from "./images/bootstrap.png"
 import asmIcon from "./images/asm.png"
 import reactIcon from "./images/react.png"
@@ -48,7 +47,7 @@ export default {
   
   // About Secton --------------
   aboutParaOne:
-    "I am fluent in C, C++, python. JavaScript, HTML, and CSS. I am currently learning SQL and Node.js with the ambition of being a full stack developer. I am also building different products and solutions with different technology. I am excited to acquire new skills, knowledge, and abilities about software engineering everyday. As a developer, I have always wanted to use my programming and problem solving skills to make an impact in the world. I hope that one day I would be able to deliver software solutions that millions and even billions of people around the globe would use.",
+    "I am fluent in C, C++, Python, JavaScript, HTML, and CSS. I am currently learning SQL and Node.js with the ambition of being a full stack developer. I am also building different products and solutions with different technology. I am excited to acquire new skills, knowledge, and abilities about software engineering everyday. As a developer, I have always wanted to use my programming and problem solving skills to make an impact in the world. I hope that one day I would be able to deliver software solutions that millions and even billions of people around the globe would use.",
     aboutParaTwo:
     "I am currently a junior pursuing a BS in Computer Science at UC Davis. From the courses I took at Davis, I have developed strong object-oriented design skills, coupled with a deep knowledge of data structures and algorithms through various challenging assignment projects. I have also gained critical thinking abilities and debugging skills. I have learned that I could write and debug any programs that I write as long as I use my logic and critical thinking skills in the process.",
   aboutImage:
@@ -80,20 +79,22 @@ export default {
       },
     {
       id: 4,
-      img: cppIcon,
-      para:
-        "C++"
-       },
-    {
-      id: 5,
-      img: cIcon,
-      para:
-        "C"},
-    {
-      id: 6,
       img: pythonIcon,
       para:
         "Python"},
+    
+    {
+      id: 5,
+      img: cppIcon,
+      para:
+        "C++"
+      },
+    {
+      id: 6,
+      img: cIcon,
+      para:
+        "C"
+      },
       {
           id: 7,
           img: asmIcon,

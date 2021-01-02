@@ -31,7 +31,7 @@ const Index = center => (
               </a>
             ))}
           </div>
-          <h2></h2>
+
         </div>
         </div>
     

@@ -104,18 +104,67 @@ const Layout = ({ children }) => (
             }
           }
           .skills-container {
-            margin-left: 10vh;
-            margin-right: 10vh;
-            margin-top: 10vh;
+            padding-left: 10vh;
+            padding-right: 15vh;
+            margin-top: 3vh;
             display: flex;
             flex-direction: column;
             align-items: center;
+            
             h1 {
               font-size: 3rem;
               line-height: 20px;
         
             }
+            .content {
+
+              width: 50%;
+              @media screen and (max-width:1100px) {
+                width: 100%;
+            }
+              @include media(">=phone", "<lgphone") {
+                width: 100%;
+              }
+              @include media(">=lgphone", "<tablet") {
+                width: 100%;
+              }
+              @include media(">=tablet", "<desktop") {
+                width: 100%;
+              }
           
+              h1 {
+                font-size: 3rem;
+                line-height: 20px;
+                @include media(">=tablet", "<desktop") {
+                  text-align: center;
+                }
+              }
+              p {
+                @include media(">=tablet", "<desktop") {
+                  text-align: center;
+                }
+                
+              }
+            }
+            .image-wrapper {
+              width: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              overflow: hidden;
+              @include media(">=phone", "<lgphone") {
+                width: 100%;
+              }
+              @include media(">=lgphone", "<tablet") {
+                width: 100%;
+              }
+              @include media(">=tablet", "<desktop") {
+                width: 100%;
+              }
+              @media screen and (max-width:1100px) {
+                display: none !important;
+            }
+            }
             .skills-grid {
               display: grid;
               
@@ -160,11 +209,12 @@ const Layout = ({ children }) => (
               }
             }
           }
+
+
+          
           .about-section {
             width: 80vw;
-            margin-top: 10vh;
-            margin-left: 30vh;
-            margin-right: 30vh;
+            padding-left:10%;
             display: flex;
             
             justify-content: space-between;
@@ -178,47 +228,7 @@ const Layout = ({ children }) => (
               flex-direction: column-reverse;
               align-items: center;
             }
-            .content {
-              width: 50%;
-              @include media(">=phone", "<lgphone") {
-                width: 100%;
-              }
-              @include media(">=lgphone", "<tablet") {
-                width: 100%;
-              }
-              @include media(">=tablet", "<desktop") {
-                width: 100%;
-              }
-          
-              h1 {
-                font-size: 3rem;
-                line-height: 20px;
-                @include media(">=tablet", "<desktop") {
-                  text-align: center;
-                }
-              }
-              p {
-                @include media(">=tablet", "<desktop") {
-                  text-align: center;
-                }
-              }
-            }
-            .image-wrapper {
-              width: 50%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              overflow: hidden;
-              @include media(">=phone", "<lgphone") {
-                width: 100%;
-              }
-              @include media(">=lgphone", "<tablet") {
-                width: 100%;
-              }
-              @include media(">=tablet", "<desktop") {
-                width: 100%;
-              }
-            }
+            
           }
           
           ${headroom}

@@ -13,7 +13,7 @@ const Wrapper = styled.article`
   border-radius: ${props => props.theme.borderRadius.default};
   box-shadow: ${props => props.theme.shadow.feature.small.default};
   transition: ${props => props.theme.transitions.boom.transition};
-  height: 17rem;
+  height: 17.5rem;
   flex-basis: calc(99.9% * 1 / 3 - 1rem);
   max-width: calc(99.9% * 1 / 3 - 1rem);
   width: calc(99.9% * 1 / 3 - 1rem);
@@ -62,10 +62,9 @@ const StyledLink = styled(Link)`
     bottom: 0;
     background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.3) 50%,
-      rgba(0, 0, 0, 0.7) 80%,
-      rgba(0, 0, 0, 0.8) 100%
+      rgba(0, 0, 0, 0) 100%,
+    
+      rgba(0, 0, 0, 0.4) 100%
     );
     z-index: -10;
     border-radius: ${theme.borderRadius.default};
@@ -94,17 +93,6 @@ const Image = styled.div`
   }
 `;
 
-const Info = styled.div`
-  color: ${props => props.theme.colors.white.light};
-  margin: 0 1rem 1.25rem 1.25rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-`;
-
-const Title = styled.h2`
-  margin-bottom: 0.6rem;
-`;
 
 const PostList = ({ cover, path, date, title, excerpt }) => (
   <Wrapper>
@@ -112,9 +100,7 @@ const PostList = ({ cover, path, date, title, excerpt }) => (
       <Img fluid={cover} />
     </Image>
     <StyledLink to={path}>
-      <Info>
-        <Title>{title}</Title>
-      </Info>
+      
     </StyledLink>
   </Wrapper>
 );

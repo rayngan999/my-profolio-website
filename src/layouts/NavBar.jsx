@@ -20,7 +20,7 @@ const StyledLink = styled(Link)`
   margin-left: 3rem;
   
   transition: all ${props => props.theme.transitions.default.duration};
-  @media screen and (max-width:640px) {
+  @media screen and (max-width:600px) {
       display: none !important;
   }
   
@@ -45,10 +45,10 @@ const Nav = styled.nav`
       opacity: 0.65;
     }
   }
-  @media screen and (max-width:640px) {
-    padding-left:12%;
-    padding-right:15%;
-    padding-top:6%
+  @media screen and (max-width:600px) {
+    padding-left:7%;
+    padding-right:7%;
+    padding-top:7%
 }
 `;
 
