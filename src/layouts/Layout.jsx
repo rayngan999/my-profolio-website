@@ -212,24 +212,7 @@ const Layout = ({ children }) => (
 
 
           
-          .about-section {
-            width: 80vw;
-            padding-left:10%;
-            display: flex;
-            
-            justify-content: space-between;
-            @include media(">=phone", "<lgphone") {
-              flex-direction: column-reverse;
-            }
-            @include media(">=lgphone", "<tablet") {
-              flex-direction: column-reverse;
-            }
-            @include media(">=tablet", "<desktop") {
-              flex-direction: column-reverse;
-              align-items: center;
-            }
-            
-          }
+          
         
         `}
       />
