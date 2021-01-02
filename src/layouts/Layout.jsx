@@ -7,7 +7,7 @@ import 'typeface-candal';
 import { SEO } from 'components';
 import { NavBar } from 'layouts';
 import theme from '../../config/theme';
-import headroom from '../styles/headroom';
+
 
 
 
@@ -230,8 +230,7 @@ const Layout = ({ children }) => (
             }
             
           }
-          
-          ${headroom}
+        
         `}
       />
       <SEO />

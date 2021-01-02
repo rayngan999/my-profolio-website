@@ -1,23 +1,24 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
-import Headroom from 'react-headroom';
 import logo from '../../static/logo/header-logo.png';
 
 const StyledLink = styled(Link)`
-  display: flex;
   
-  justify-content: flex-end;
+  
+
+position: absolute;
+margin-top: 4%;
+maring-bottom: 4%;
+left: 7%;
+  
   font-family: ${props => props.theme.fontFamily.body};
   
   font-size: 1.1rem;
-  position:relative;
-  color: black;
-  padding-top: 3%;
-  left:0;
+
+ 
   
-  margin-bottom: 1rem;
-  margin-left: 3rem;
+ t
   
   transition: all ${props => props.theme.transitions.default.duration};
   @media screen and (max-width:600px) {
@@ -30,11 +31,12 @@ const Nav = styled.nav`
   display: flex;
   justify-content: flex-end;
   font-family: ${props => props.theme.fontFamily.body};
-  font-weight: 700;
+  font-weight: 0;
   font-size: 1.1rem;
   align-items: center; 
   padding-right: 5%;
-  
+  padding-top: 5%;
+  padding-bottom: 5%;
   a {
     color: black;
     margin-left: 2rem;
@@ -46,26 +48,33 @@ const Nav = styled.nav`
     }
   }
   @media screen and (max-width:600px) {
-    padding-left:7%;
-    padding-right:7%;
-    padding-top:7%
+    padding-left:5%;
+    padding-right:10%;
+    
 }
 `;
 
 
+
+
 const NavBar = () => (
- <Headroom>
+  <div>
+ 
+   
     <StyledLink to="/">
+
       <img width= "45px" src={logo} alt="Gatsby Logo" />
-      
+
     </StyledLink>
- <Nav> 
+   
+    <Nav> 
     <Link to="/">Home</Link>
       <Link to="/project">Project</Link>
       {/*<Link to="/blog">Blog</Link>*/}
       <Link to="/about">About</Link>
     </Nav>
-    </Headroom>
+    </div>
+    
 
 );
 

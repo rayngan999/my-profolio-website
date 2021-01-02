@@ -6,8 +6,7 @@ import data from "../yourdata"
 
 
 const Index = center => (
-   
-
+  
   <Layout>
     <Helmet title={'Ray Ngan'} />
     <div className="container">
