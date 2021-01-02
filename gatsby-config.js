@@ -5,6 +5,14 @@ module.exports = {
     ...config,
   },
   plugins: [
+    {
+    resolve: `gatsby-plugin-google-gtag`,
+    options: {
+      // You can add multiple tracking ids and a pageview event will be fired for all of them.
+      trackingIds: [
+        "G-XLQC46BKCZ"],
+    },
+  },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     {
