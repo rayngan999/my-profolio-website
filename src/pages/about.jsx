@@ -13,9 +13,7 @@ const Half = styled.div`
   display: flex;
   padding-top:3%;
   justify-content: space-between;
-  @media screen and (max-width:600px) {
-    padding-top:7%;
-  }
+  
   
 
 `;

@@ -46,6 +46,7 @@ const Nav = styled.nav`
     }
   }
   @media screen and (max-width:600px) {
+    padding-right: 3%;
 }
 `;
 
