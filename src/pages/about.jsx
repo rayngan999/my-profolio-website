@@ -160,7 +160,7 @@ const About = center => (
     <div className="section">
       <div className="container">
         
-      <SkillsContainer>
+      
       <Half>
           <Content>
               <h1>About Me</h1>
@@ -180,8 +180,9 @@ const About = center => (
           </ImageWrapper>
         
           </Half>
+
           <br></br>
-        
+        <SkillsContainer>
           <h1 id ='title2'>Skills</h1>
           <br></br>
           <Skills_grid>

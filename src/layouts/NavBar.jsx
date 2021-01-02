@@ -15,10 +15,6 @@ left: 7%;
   font-family: ${props => props.theme.fontFamily.body};
   
   font-size: 1.1rem;
-
- 
-  
- t
   
   transition: all ${props => props.theme.transitions.default.duration};
   @media screen and (max-width:600px) {
@@ -34,7 +30,9 @@ const Nav = styled.nav`
   font-weight: 0;
   font-size: 1.1rem;
   align-items: center; 
+  
   padding-right: 5%;
+  padding-left: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
   a {
@@ -48,8 +46,7 @@ const Nav = styled.nav`
     }
   }
   @media screen and (max-width:600px) {
-    padding-left:5%;
-    padding-right:10%;
+    display:fixed;
     
 }
 `;
