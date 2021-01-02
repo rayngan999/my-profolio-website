@@ -84,13 +84,83 @@ const ImageWrapper = styled.div`
 `;
 
 
+const SkillsContainer= styled.div`
+
+  padding-left: 10vh;
+  padding-right: 15vh;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
+
+  }
+  
+  
+
+`;
+
+
+const Skills_grid= styled.div`
+
+  display: grid;
+  
+  margin-top: 50px;
+  grid-gap: 20px;
+  
+grid-template-columns: repeat(6, 1fr);
+
+  @media screen and (max-width:1135px) {
+    grid-template-columns: repeat(5, 1fr);
+}
+@media screen and (max-width:935px) {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (max-width:790px) {
+grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width:640px) {
+grid-template-columns: repeat(2, 1fr);
+}
+
+  @include media(">=phone", "<lgphone") {
+    grid-template-columns: 1fr;
+  }
+  @include media(">=lgphone", "<tablet") {
+    grid-template-columns: 1fr;
+  }
+  @include media(">=tablet", "<desktop") {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+
+
+`;
+
+const Skills= styled.div`
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  img {
+    height: 3rem;
+  }
+  p {
+    font-size: 14px;
+  }
+
+`;
 const About = center => (
   <Layout>
     <Helmet title={'Ray Ngan'} />
     <div className="section">
       <div className="container">
         
-      <div className="skills-container">
+      <SkillsContainer>
       <Half>
           <Content>
               <h1>About Me</h1>
@@ -114,15 +184,15 @@ const About = center => (
         
           <h1 id ='title2'>Skills</h1>
           <br></br>
-          <div className="skills-grid">
+          <Skills_grid>
             {data.skills.map(skill => (
-              <div className="skill" key={skill.id}>
+              <Skills key={skill.id}>
                 <img src={skill.img} alt="css"></img>
                 <p>{skill.para}</p>
-              </div>
+              </Skills>
             ))}
-          </div>
-        </div>
+          </Skills_grid>
+        </SkillsContainer>
       </div>
       </div>
   </Layout>

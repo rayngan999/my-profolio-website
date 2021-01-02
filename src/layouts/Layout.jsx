@@ -103,64 +103,7 @@ const Layout = ({ children }) => (
               font-size: 1.3rem;
             }
           }
-          .skills-container {
-            padding-left: 10vh;
-            padding-right: 15vh;
-            margin-top: 3vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-            h1 {
-              font-size: 3rem;
-              line-height: 20px;
-        
-            }
-            
-            .skills-grid {
-              display: grid;
-              
-              margin-top: 50px;
-              grid-gap: 20px;
-              
-            grid-template-columns: repeat(6, 1fr);
-        
-              @media screen and (max-width:1135px) {
-                grid-template-columns: repeat(5, 1fr);
-            }
-            @media screen and (max-width:935px) {
-              grid-template-columns: repeat(4, 1fr);
-          }
-          @media screen and (max-width:790px) {
-            grid-template-columns: repeat(3, 1fr);
-        }
-        @media screen and (max-width:640px) {
-          grid-template-columns: repeat(2, 1fr);
-      }
-
-              @include media(">=phone", "<lgphone") {
-                grid-template-columns: 1fr;
-              }
-              @include media(">=lgphone", "<tablet") {
-                grid-template-columns: 1fr;
-              }
-              @include media(">=tablet", "<desktop") {
-                grid-template-columns: 1fr 1fr;
-              }
-              .skill {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                img {
-                  height: 3rem;
-                }
-                p {
-                  font-size: 14px;
-                }
-              }
-            }
-          }
+          
 
 
           
