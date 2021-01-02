@@ -47,7 +47,7 @@ const Nav = styled.nav`
   }
   @media screen and (max-width:600px) {
     display:fixed;
-    
+    margin-right:5%;
 }
 `;
 

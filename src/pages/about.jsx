@@ -7,21 +7,14 @@ import styled from '@emotion/styled';
 
 
 const Half = styled.div`
-
-  width: 80vw;
-  padding-left:10%;
-  display: flex;
   
+  width: 90vw;
+  padding-left:13%;
+  display: flex;
+  padding-top:3%;
   justify-content: space-between;
   @include media(">=phone", "<lgphone") {
-    flex-direction: column-reverse;
-  }
-  @include media(">=lgphone", "<tablet") {
-    flex-direction: column-reverse;
-  }
-  @include media(">=tablet", "<desktop") {
-    flex-direction: column-reverse;
-    align-items: center;
+    padding-top:7%;
   }
   
 
@@ -34,27 +27,13 @@ const Content = styled.div`
   @media screen and (max-width:1100px) {
     width: 100%;
 }
-  @include media(">=phone", "<lgphone") {
-    width: 100%;
-  }
-  @include media(">=lgphone", "<tablet") {
-    width: 100%;
-  }
-  @include media(">=tablet", "<desktop") {
-    width: 100%;
-  }
-
+  
   h1 {
     font-size: 3rem;
     line-height: 20px;
-    @include media(">=tablet", "<desktop") {
-      text-align: center;
-    }
+    
   }
-  p {
-    @include media(">=tablet", "<desktop") {
-      text-align: center;
-    }
+  
     
   }
 
@@ -68,15 +47,7 @@ const ImageWrapper = styled.div`
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  @include media(">=phone", "<lgphone") {
-    width: 100%;
-  }
-  @include media(">=lgphone", "<tablet") {
-    width: 100%;
-  }
-  @include media(">=tablet", "<desktop") {
-    width: 100%;
-  }
+  
   @media screen and (max-width:1100px) {
     display: none !important;
 }
@@ -126,16 +97,7 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-columns: repeat(2, 1fr);
 }
 
-  @include media(">=phone", "<lgphone") {
-    grid-template-columns: 1fr;
-  }
-  @include media(">=lgphone", "<tablet") {
-    grid-template-columns: 1fr;
-  }
-  @include media(">=tablet", "<desktop") {
-    grid-template-columns: 1fr 1fr;
-  }
-  
+ 
 
 
 `;
