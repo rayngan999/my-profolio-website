@@ -9,7 +9,8 @@ import styled from '@emotion/styled';
 const Half = styled.div`
   
   width: 90vw;
-  padding-left:13%;
+  padding-left:17%;
+  padding-right:5%;
   display: flex;
   padding-top:3%;
   justify-content: space-between;
@@ -20,7 +21,7 @@ const Half = styled.div`
 
 const Content = styled.div`
 
-
+ 
   width: 50%;
   @media screen and (max-width:1100px) {
     width: 100%;
