@@ -9,8 +9,8 @@ import styled from '@emotion/styled';
 const Half = styled.div`
   
   width: 90vw;
-  padding-left:18%;
-  padding-right:8.5%;
+  padding-left:20%;
+  padding-right:10%;
   display: flex;
   padding-top:3%;
   justify-content: space-between;
