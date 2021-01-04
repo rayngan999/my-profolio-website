@@ -9,12 +9,14 @@ import styled from '@emotion/styled';
 const Half = styled.div`
   
   width: 90vw;
-  padding-left:17%;
-  padding-right:5%;
+  padding-left:18%;
+  padding-right:8.5%;
   display: flex;
   padding-top:3%;
   justify-content: space-between;
-  
+  @media screen and (max-width:600px) {
+    padding-top: 20%;
+}
   
 
 `;
@@ -56,8 +58,8 @@ const ImageWrapper = styled.div`
 
 const SkillsContainer= styled.div`
 
-  padding-left: 10vh;
-  padding-right: 15vh;
+  padding-left: 10%;
+  padding-right: 15%;
   margin-top: 3vh;
   display: flex;
   flex-direction: column;
