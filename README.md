@@ -36,36 +36,7 @@
   </a>
 </p>
 
-# Usage
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/justinformentin/gatsby-v2-tutorial-starter)
-
-```bash
-Download project
-# With `gatsby-cli`
-gatsby new my-site https://github.com/justinformentin/gatsby-v2-tutorial-starter
-
-OR
-
-# Cloning
-git clone my-site https://github.com/justinformentin/gatsby-v2-tutorial-starter.git
-cd my-site
-
-THEN
-
-# Install dependencies
-npm i
-
-# Start dev server
-gatsby develop
-
-# Build for production
-gatsby build
-
-# Format with Prettier
-npm format
-
-```
 
 ## Folder structure
 ```bash
