@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import Img from 'gatsby-image';
-// import { TagsBlock } from 'components';
+import { TagsBlock } from 'components';
 import { Container } from 'layouts';
 
 const Wrapper = styled.article`
@@ -86,7 +86,7 @@ const Title = styled.h1`
   margin: 0;
 `;
 
-const BlogList = ({ path, cover, title, date, excerpt }) => (
+const BlogList = ({ path, cover, title, date, excerpt, tags }) => (
   <Container>
     <Wrapper>
       <Image>
@@ -99,7 +99,7 @@ const BlogList = ({ path, cover, title, date, excerpt }) => (
         <Link to={path}>
           <Title>{title}</Title>
         </Link>
-        {/* <TagsBlock list={tags} /> */}
+        <TagsBlock list={tags} />
         {excerpt}
       </Information>
     </Wrapper>
@@ -114,5 +114,5 @@ BlogList.propTypes = {
   excerpt: PropTypes.string,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  // tags: PropTypes.array.isRequired,
+  tags: PropTypes.array.isRequired,
 };
