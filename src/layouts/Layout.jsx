@@ -53,59 +53,136 @@ const Layout = ({ children }) => (
             text-decoration: none;
             color: ${theme.colors.linkHover};
           }
-          h1 {
-            font-family: Nunito,Avenir,Helvetica,"sans-serif";
+          
+          
+          #prof-img {
+           
+            height:350px;
+            border-radius: 50%;
+            float: right;
+            margin-left:10%;
+            margin-right:20%;
+            margin-top: 1%;
+            @media screen and (max-width:1200px) {
+            
+              margin-top:5%;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              float: none;
+            }
           }
           
-          
-         
+        
           .index-wrapper {
-            padding-top:6.5%;
-            margin-top: 10vh;
-            margin-bottom: 10vh;
+           
+            
+            
+            margin-bottom: 10%;
+            margin-left:20%;
+            margin-right:20%;
             display: flex;
             flex-direction: column;
-            align-items: center;
-          
+            
             h2 {
               font-family: Nunito,Avenir,Helvetica,"sans-serif";
-              font-size: 1.6rem;
-              padding-top:1%;
-            }
-            span {
-              margin-top: 10px;
-            }
-            
-              h1 {
-                font-size: 4.5rem;
+              font-size: 1.6em;
+              margin-top:.5%;
+              display: block;
+              font-weight: 900;
+              @media screen and (max-width:1200px) {
+                font-size: 1.3em;
+                margin: auto;
+                margin-top: 1%;
                 text-align: center;
-                line-height: 30px;
-                font-family: Nunito,Avenir,Helvetica,"sans-serif";
+                
+                // height: 100%; 
+                // overflow: hidden
+              }
+            }
+          
+            p{
+              width:28vw;
+              font-size: 1em;
+              margin-top:.5%;
+              display: block;
+              
+              @media screen and (max-width:1200px) {
+                
+                width:60vw;
+                
+                text-align: center;
+                margin-top:2%;
+              }
+            }
+            #hand{
+              margin-right:1%;
+            }
+            #colored{
+              color:#7289da;
+            }
+            #bold{
+              font-weight: 600;
+            }
+            h1 {
+              width: 500px;
+              font-size: 2.5rem;  
+              line-height: 40px;
+              font-family: Nunito,Avenir,Helvetica,"sans-serif";
+              font-weight: 900;
+              margin-top: 8%;
+              @media screen and (max-width:1200px) {
+                font-size: 2.3rem;  
+                margin: auto;
+                text-align: center;
+                width:50vw;
+                margin-top:2%;
                 
                 
               }
+            }
             #line{
               margin-top:1%;
             }
-            .social-icons {
-              padding-top:2%;
-              img {
-                height: 2.5rem;
-                margin: 10px;
+            #linkedin{
+              &:hover {
+                filter: invert(54%) sepia(49%) saturate(562%) hue-rotate(191deg) brightness(91%) contrast(86%);
               }
             }
-            
-            icon {
-              color: red;
+            #github{
+              &:hover {
+                filter: invert(54%) sepia(49%) saturate(562%) hue-rotate(191deg) brightness(91%) contrast(86%);
+              }
             }
-            p {
-              font-family: Nunito,Avenir,Helvetica,"sans-serif";
-              font-size: 1.3rem;
+            #email{
+              &:hover {
+                filter: invert(54%) sepia(49%) saturate(562%) hue-rotate(191deg) brightness(91%) contrast(86%);
+              }
             }
+            .social-icons {
+              
+              img {
+                height: 2rem;
+                margin-right: 20px;
+                
+              }
+              @media screen and (max-width:1200px) {
+                
+             
+               
+                text-align: center;
+              }
+              
+            }
+
           }
-          
+
+         
 
 
+         
+            
+          }
           
           
         

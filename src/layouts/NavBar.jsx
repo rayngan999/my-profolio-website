@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import logo from '../../static/logo/header-logo.png';
+import resume from "../Ray Ngan Resume.pdf"
+import { Dropdown } from 'semantic-ui-react'
+
+
 
 const StyledLink = styled(Link)`
   
@@ -17,8 +21,8 @@ left: 7%;
   font-size: 1.1rem;
   
   transition: all ${props => props.theme.transitions.default.duration};
-  @media screen and (max-width:600px) {
-      display: none !important;
+  @media screen and (max-width:1200px) {
+    display: none;
   }
   
 `;
@@ -26,35 +30,110 @@ left: 7%;
 const Nav = styled.nav`
   display: flex;
   justify-content: flex-end;
-  font-family: ${props => props.theme.fontFamily.body};
-  font-weight: 0;
-  font-size: 1.1rem;
-  align-items: center; 
+  font-family: Nunito,Avenir,Helvetica,"sans-serif";
   
+
+  font-size: 1.2rem;
+  align-items: center; 
+  font-weight:600;
   padding-right: 5%;
   padding-left: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
   a {
     color: black;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     transition: all ${props => props.theme.transitions.default.duration};
     &:hover {
-      transform: scale(1.05);
-      opacity: 0.65;
+      
+      color:#7289da;
     }
   }
-  @media screen and (max-width:600px) {
-    padding-right: 3%;
-}
+  @media screen and (max-width:1200px) {
+    display: none;
+  }
+
+
+
 `;
 
+const DropDown = styled.div`
+/* Dropdown Button */
 
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+display: flex;
+  justify-content: flex-end;
+  font-family: Nunito,Avenir,Helvetica,"sans-serif";
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 4%;
+  
+.dropbtn {
+  width:70px;
+  margin-left: auto;
+  background-color: #7a94f0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  display: none;
+  @media screen and (max-width:1200px) {
+    display: block;
+  }
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  width: 200px;
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  
+  background-color: #f1f1f1;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+ 
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #7289da;}
+
+`
 
 
 const NavBar = () => (
-  <div>
+
+
+<div>
  
    
     <StyledLink to="/">
@@ -62,16 +141,39 @@ const NavBar = () => (
       <img width= "45px" src={logo} alt="Gatsby Logo" />
 
     </StyledLink>
+    
    
     <Nav> 
+    
+ 
     <Link to="/">Home</Link>
       <Link to="/project">Project</Link>
       {/*<Link to="/blog">Blog</Link>*/}
       <Link to="/about">About</Link>
+      <a href={resume}>Resume</a>
+
+      
     </Nav>
+    <DropDown>
+    <div class="dropdown">
+  <button class="dropbtn">
+    <div class="bar"/>
+    <div class="bar"/>
+    <div class="bar"/>
+
+  </button>
+  <div class="dropdown-content">
+  <Link to="/">Home</Link>
+  <Link to="/project">Project</Link>
+  <Link to="/about">About</Link>
+  <a href={resume}>Resume</a>
+  </div>
+</div>
+</DropDown>
     </div>
     
 
 );
 
 export default NavBar;
+

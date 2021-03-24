@@ -14,11 +14,8 @@ import linuxIcon from "./images/linux.png"
 import profilefic from "./images/my.jpg"
 
 
-// Social Icon
-import githubIcon from "./images/github.png"
-import linkedinIcon from "./images/linkedin.svg"
-import envelopeIcon from "./images/envelope.png"
-import fileIcon from "./images/file.png"
+
+
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -147,20 +144,7 @@ export default {
 
   contactSubHeading: "Let's create your next experience together",
   social: [
-    // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/rayngan999" },
-    {
-      img: linkedinIcon,
-      url: "https://www.linkedin.com/in/rayngan/",
-    },
-    {
-      img: envelopeIcon,
-      url: "mailto:rayngan999@gmail.com",
-    },
-    {
-      img: fileIcon,
-      url: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:fa76e0e9-cebd-4ddf-82ac-186bde5ae9e0",
-    },
+  
   ],
 
   // End Contact Section ---------------

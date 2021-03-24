@@ -12,10 +12,12 @@ const PostWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 4rem 4rem 1rem 4rem;
-  @media (max-width: 1000px) {
+  z-index: 0;
+  @media (max-width: 1200px) {
+
     margin: 4rem 2rem 1rem 2rem;
   }
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     margin: 4rem 1rem 1rem 1rem;
   }
 `;
@@ -24,7 +26,7 @@ const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
-      <Helmet title={'Project'} />
+      <Helmet title={'Ray Ngan - Project'} />
       <Header title=""></Header>
       <PostWrapper>
         {edges.map(({ node }) => {

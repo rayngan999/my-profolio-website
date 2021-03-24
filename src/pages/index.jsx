@@ -1,39 +1,72 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { Layout } from 'layouts';
-import data from "../yourdata"
 
+import linkedinIcon from "../images/linkedin.png"
+import envelopeIcon from "../images/filled-sent.png"
+import githubIcon from "../images/github.svg"
+
+import profileIcon from "../images/pic.jpeg"
 
 
 const Index = center => (
   
   <Layout>
-    <Helmet title={'Home'} />
+    <Helmet title={'Ray Ngan - Home'} />
+    
     <div className="container">
+      <div className="picture-wrapper">
+        <img src={profileIcon} alt="icons" id="prof-img" ></img>
+        </div>
         <div className="index-wrapper">
-          
+       
             <h1>
-              Ray Ngan{" "}
+            <span role="img" aria-label="Hand" id="hand">👋</span>
+            Hi there, I
+            <span id="colored">'</span>m Ray<span id="colored">.</span>
               
             </h1>
        
-            <h2>software developer</h2>
-            <div id="line" STYLE="background-color:grey; height:1px; width:20%;"/>
+            <h2> Software developer based in Davis, CA</h2>
+            <p> Currently pursuring a Bachelor's degree in Computer Science at UC Davis. I specialized in <span id="bold">Web Development</span> <span role="img" aria-label="Web" id="hand">🖥,</span> <span id="bold">iOS Development</span> <span role="img" aria-label="ios" id="hand">📱,</span>and <span id="bold">Machine Learning </span><span role="img" aria-label="Robot"id="hand">🤖 </span></p>
+            
+            
           <div className="social-icons">
-            {data.social.map(socialLink => (
               <a
-                href={socialLink.url}
+                href={"https://www.linkedin.com/in/rayngan/"}
                 target="_blank"
                 rel="noopener noreferrer"
+                id = "linkedin"
               >
-                <img src={socialLink.img} alt="icons"></img>
+                <img src={linkedinIcon} alt="icons"></img>
               </a>
-            ))}
+              <a
+                href={"https://github.com/rayngan999"}
+                target="_blank"
+                rel="noopener noreferrer"
+                id = "github"
+              >
+                <img src={githubIcon} alt="icons"></img>
+              </a>
+              <a
+                href={"mailto:rayngan999@gmail.com"}
+                target="_blank"
+                rel="noopener noreferrer"
+                id = "email"
+              >
+                <img src={envelopeIcon} alt="icons"></img>
+              </a>
+            
           </div>
+          
+        </div>
+        
+        
 
         </div>
-        </div>
-    
+        
+        
+
  
   </Layout>
 );

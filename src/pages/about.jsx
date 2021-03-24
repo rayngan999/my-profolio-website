@@ -25,7 +25,7 @@ const Content = styled.div`
 
  
   width: 50%;
-  @media screen and (max-width:1100px) {
+  @media screen and (max-width:1200px) {
     width: 100%;
 }
   
@@ -38,7 +38,6 @@ const Content = styled.div`
     
   }
 
-
 `;
 
 const ImageWrapper = styled.div`
@@ -49,7 +48,7 @@ const ImageWrapper = styled.div`
   justify-content: center;
   overflow: hidden;
   
-  @media screen and (max-width:1100px) {
+  @media screen and (max-width:1200px) {
     display: none !important;
 }
 
@@ -119,15 +118,15 @@ const Skills= styled.div`
 `;
 const About = center => (
   <Layout>
-    <Helmet title={'About'} />
+    <Helmet title={'Ray Ngan - About'} />
     <div className="section">
       <div className="container">
         
       
       <Half>
           <Content>
-              <h1>About Me</h1>
-              <br></br>
+              
+             
             <p>
               {data.aboutParaOne}
               <br></br>
