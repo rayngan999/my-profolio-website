@@ -58,18 +58,18 @@ exports.createPages = ({ graphql, actions }) => {
         });
 
         //create tags
-        tags.forEach(tagName => {
-          const posts = postsByTag[tagName];
+        // tags.forEach(tagName => {
+        //   const posts = postsByTag[tagName];
 
-          createPage({
-            path: `/tags/${tagName}`,
-            component: tagPosts,
-            context: {
-              posts,
-              tagName,
-            },
-          });
-        });
+        //   createPage({
+        //     path: `/tags/${tagName}`,
+        //     component: tagPosts,
+        //     context: {
+        //       posts,
+        //       tagName,
+        //     },
+        //   });
+        // });
 
         //create posts
         posts.forEach(({ node }, index) => {
