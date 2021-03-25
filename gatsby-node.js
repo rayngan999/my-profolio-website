@@ -47,15 +47,15 @@ exports.createPages = ({ graphql, actions }) => {
           }
         });
 
-        const tags = Object.keys(postsByTag);
+        // const tags = Object.keys(postsByTag);
 
-        createPage({
-          path: '/tags',
-          component: tagPage,
-          context: {
-            tags: tags.sort(),
-          },
-        });
+        // createPage({
+        //   path: '/tags',
+        //   component: tagPage,
+        //   context: {
+        //     tags: tags.sort(),
+        //   },
+        // });
 
         //create tags
         // tags.forEach(tagName => {
