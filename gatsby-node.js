@@ -35,17 +35,17 @@ exports.createPages = ({ graphql, actions }) => {
 
         const postsByTag = {};
         // create tags page
-        posts.forEach(({ node }) => {
-          if (node.frontmatter.tags) {
-            node.frontmatter.tags.forEach(tag => {
-              if (!postsByTag[tag]) {
-                postsByTag[tag] = [];
-              }
+        // posts.forEach(({ node }) => {
+        //   if (node.frontmatter.tags) {
+        //     node.frontmatter.tags.forEach(tag => {
+        //       if (!postsByTag[tag]) {
+        //         postsByTag[tag] = [];
+        //       }
 
-              postsByTag[tag].push(node);
-            });
-          }
-        });
+        //       postsByTag[tag].push(node);
+        //     });
+        //   }
+        // });
 
         // const tags = Object.keys(postsByTag);
 
