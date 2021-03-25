@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import logo from '../../static/logo/header-logo.png';
 import resume from "../Ray Ngan Resume.pdf"
-import { Dropdown } from 'semantic-ui-react'
+
 
 
 
