@@ -4,9 +4,9 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
-    // const postTemplate = path.resolve('src/templates/post.jsx');
-    // const tagPage = path.resolve('src/pages/tags.jsx');
-    // const tagPosts = path.resolve('src/templates/tag.jsx');
+    const postTemplate = path.resolve('src/templates/post.jsx');
+    const tagPage = path.resolve('src/pages/tags.jsx');
+    const tagPosts = path.resolve('src/templates/tag.jsx');
 
     resolve(
       graphql(
@@ -20,6 +20,7 @@ exports.createPages = ({ graphql, actions }) => {
                   frontmatter {
                     path
                     title
+                    tags
                   }
                 }
               }
@@ -33,43 +34,50 @@ exports.createPages = ({ graphql, actions }) => {
 
         const posts = result.data.allMarkdownRemark.edges;
 
+        const postsByTag = {};
+        // create tags page
+        posts.forEach(({ node }) => {
+          if (node.frontmatter.tags) {
+            node.frontmatter.tags.forEach(tag => {
+              if (!postsByTag[tag]) {
+                postsByTag[tag] = [];
+              }
 
-        // create posts
+              postsByTag[tag].push(node);
+            });
+          }
+        });
+
+        const tags = Object.keys(postsByTag);
+
+        createPage({
+          path: '/tags',
+          component: tagPage,
+          context: {
+            tags: tags.sort(),
+          },
+        });
+
+        //create tags
+        tags.forEach(tagName => {
+          const posts = postsByTag[tagName];
+
+          createPage({
+            path: `/tags/${tagName}`,
+            component: tagPosts,
+            context: {
+              posts,
+              tagName,
+            },
+          });
+        });
+
+        //create posts
         posts.forEach(({ node }, index) => {
           const path = node.frontmatter.path;
           const prev = index === 0 ? null : posts[index - 1].node;
           const next =
-            index === posts.length - 1 ? null : posts[index + 1].node;const path = require(`path`)
-            // Log out information after a build is done
-            exports.onPostBuild = ({ reporter }) => {
-              reporter.info(`Your Gatsby site has been built!`)
-            }
-            // Create blog pages dynamically
-            // exports.createPages = async ({ graphql, actions }) => {
-            //   const { createPage } = actions
-            //   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
-            //   const result = await graphql(`
-            //     query {
-            //       allSamplePages {
-            //         edges {
-            //           node {
-            //             slug
-            //             title
-            //           }
-            //         }
-            //       }
-            //     }
-            //   `)
-            //   result.data.allSamplePages.edges.forEach(edge => {
-            //     createPage({
-            //       path: `${edge.node.slug}`,
-            //       component: blogPostTemplate,
-            //       context: {
-            //         title: edge.node.title,
-            //       },
-            //     })
-            //   })
-            // }
+            index === posts.length - 1 ? null : posts[index + 1].node;
           createPage({
             path,
             component: postTemplate,

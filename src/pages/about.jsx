@@ -75,7 +75,7 @@ const SkillsContainer= styled.div`
 `;
 
 
-const SkillsGrid= styled.div`
+const Skills_grid= styled.div`
 
   display: grid;
   
@@ -150,14 +150,14 @@ const About = center => (
         <SkillsContainer>
           <h1 id ='title2'>Skills</h1>
           <br></br>
-          <SkillsGrid>
+          <Skills_grid>
             {data.skills.map(skill => (
               <Skills key={skill.id}>
                 <img src={skill.img} alt="css"></img>
                 <p>{skill.para}</p>
               </Skills>
             ))}
-          </SkillsGrid>
+          </Skills_grid>
         </SkillsContainer>
       </div>
       </div>
