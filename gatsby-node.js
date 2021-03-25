@@ -20,7 +20,6 @@ exports.createPages = ({ graphql, actions }) => {
                   frontmatter {
                     path
                     title
-                    tags
                   }
                 }
               }
