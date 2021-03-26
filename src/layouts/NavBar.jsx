@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import logo from '../../static/logo/header-logo.png';
 import resume from "../Ray Ngan Resume.pdf"
-import { Dropdown } from 'semantic-ui-react'
+
 
 
 
@@ -62,8 +62,8 @@ const DropDown = styled.div`
 /* Dropdown Button */
 
 .bar {
-  width: 35px;
-  height: 5px;
+  width: 25px;
+  height: 4px;
   background-color: white;
   margin: 6px 0;
   margin-left: auto;
@@ -78,11 +78,11 @@ display: flex;
   padding-top: 4%;
   
 .dropbtn {
-  width:70px;
+  width:55px;
   margin-left: auto;
   background-color: #7a94f0;
   color: white;
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
   border: none;
   display: none;
@@ -91,13 +91,7 @@ display: flex;
   }
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  width: 200px;
-  display: inline-block;
-  
-}
+
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
