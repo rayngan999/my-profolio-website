@@ -163,6 +163,7 @@ const Layout = ({ children }) => (
               
               img {
                 height: 2rem;
+                width: 2rem;
                 margin-right: 20px;
                 
               }
