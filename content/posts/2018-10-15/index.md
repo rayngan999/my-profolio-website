@@ -13,8 +13,9 @@ Created for StudentsBuild4COVID19 Hackathon: [Studentsbuild4covid19](https://www
 
 Awarded Second Place based on innovation, practicality, impact, functionality.
 
-[![](./safespace.png)](#)
-[![](./ss_title.png)](#)
+<img src="https://i.ibb.co/qmdMsmK/safespace.png">
+<img src="https://i.ibb.co/bXxQJKN/ss-title.png" alt="ss-title" border="0">
+
 
 
 <br/>
@@ -33,7 +34,7 @@ It will help the users assess the risk of visiting a particular place. It will a
 
 <hr/>
 
-[![](./front.png)](#)
+<img src="https://i.ibb.co/vc4vMLC/front.png">
 
 <br>
 
@@ -41,4 +42,4 @@ It will help the users assess the risk of visiting a particular place. It will a
 
 <hr/>
 
-[![](./rating.png)](#)
+<img src="https://i.ibb.co/Ms0jDLm/rating.png">

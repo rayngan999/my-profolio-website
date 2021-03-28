@@ -11,14 +11,14 @@ const PostWrapper = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 4rem 4rem 1rem 4rem;
+  margin: 2rem 4rem 1rem 4rem;
   z-index: 0;
   @media (max-width: 1200px) {
 
     margin: 4rem 2rem 1rem 2rem;
   }
   @media (max-width: 800px) {
-    margin: 4rem 1rem 1rem 1rem;
+    margin: 4rem 3.5rem 1rem 3.5rem;
   }
 `;
 

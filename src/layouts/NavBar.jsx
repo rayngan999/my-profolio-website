@@ -13,7 +13,6 @@ const StyledLink = styled(Link)`
 
 position: absolute;
 margin-top: 4%;
-maring-bottom: 4%;
 left: 7%;
   
   font-family: ${props => props.theme.fontFamily.body};
@@ -39,7 +38,7 @@ const Nav = styled.nav`
   padding-right: 5%;
   padding-left: 5%;
   padding-top: 5%;
-  padding-bottom: 5%;
+
   a {
     color: black;
     margin-left: 1.5rem;
@@ -96,7 +95,7 @@ display: flex;
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  
+  // position: absolute;
   background-color: #f1f1f1;
   width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

@@ -12,7 +12,7 @@ published: true
 
 Bit Project's aim is to integrate hands-on STEAM (Science, Technology, Engineering, Arts, and Mathematics) projects into elementary school classrooms. We help teachers who don't have specialized training in STEM by incorporating creative robotics activities that encourage students to learn problem-solving skills while also reinforcing previously learned concepts to maximize retention.
 
-[![](./info.jpg)](https://bitproject.org/)
+<img src="https://i.ibb.co/HG6yFHc/info.jpg">
 <br>
 
 ##To learn more: [Bitproject.org](https://bitproject.org/)

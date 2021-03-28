@@ -108,7 +108,6 @@ const prism = css`
   .token.function {
     color: #84c16a;
   }
-
   .token.keyword {
     color: #6095ea;
   }

@@ -14,9 +14,7 @@ const Half = styled.div`
   display: flex;
   padding-top:3%;
   justify-content: space-between;
-  @media screen and (max-width:600px) {
-    padding-top: 20%;
-}
+
   
 
 `;
@@ -57,8 +55,7 @@ const ImageWrapper = styled.div`
 
 const SkillsContainer= styled.div`
 
-  padding-left: 10%;
-  padding-right: 15%;
+
   margin-top: 3vh;
   display: flex;
   flex-direction: column;

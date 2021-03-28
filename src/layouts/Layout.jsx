@@ -54,6 +54,7 @@ const Layout = ({ children }) => (
             color: ${theme.colors.linkHover};
           }
           
+        
           
           #prof-img {
            
@@ -62,10 +63,10 @@ const Layout = ({ children }) => (
             float: right;
             margin-left:10%;
             margin-right:20%;
-            margin-top: 1%;
+            margin-top: 2%;
             @media screen and (max-width:1200px) {
             
-              margin-top:5%;
+              
               display: block;
               margin-left: auto;
               margin-right: auto;
@@ -77,7 +78,7 @@ const Layout = ({ children }) => (
           .index-wrapper {
            
             
-            
+            margin-top: 8%;
             margin-bottom: 10%;
             margin-left:20%;
             margin-right:20%;
@@ -93,11 +94,9 @@ const Layout = ({ children }) => (
               @media screen and (max-width:1200px) {
                 font-size: 1.3em;
                 margin: auto;
-                margin-top: 1%;
+                margin-top: 2%;
                 text-align: center;
-                
-                // height: 100%; 
-                // overflow: hidden
+              
               }
             }
           
@@ -136,7 +135,7 @@ const Layout = ({ children }) => (
                 margin: auto;
                 text-align: center;
                 width:50vw;
-                margin-top:2%;
+              
                 
                 
               }

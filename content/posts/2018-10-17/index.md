@@ -7,7 +7,7 @@ tags: []
 published: true
 ---
 
-[![](./UC-Davis-Logo.png)](#)
+<img src="https://i.ibb.co/7GCPQHm/UC-Davis-Logo.png">
 
 #Browser Fingerprinting Reasearch 
 UC Davis (Industry collaborators: Apple, Mozilla)
