@@ -6,7 +6,7 @@ title: "AStarOnTerrainMap"
 published: true
 
 ---
-#A * On Terrain Map
+#A* On Terrain Maps
 <hr>
 
 Uses A* to devise an algorithm for plotting a course home, minimizing the total cost of the path and the amount of time spent searching.

@@ -1,6 +1,6 @@
 ---
 path: "/cash&card"
-cover: "./card.jpg"
+cover: "./card.png"
 date: "2020-12-20"
 title: "Cash&Card"
 published: true
@@ -65,7 +65,7 @@ After the `Api.verifyCode` is used and successfully verified by the user without
 
 Contains all the accounts information of the user presented using UITable. When an account is selected, there will be four account actions the user can perform: Deposit, Withdraw, Transfer, and Delete. All of the actions will be saved to the API under the user’s account. User can also add or delete accounts in the account view.
 
-<img src="https://i.ibb.co/By64CwZ/account.png">
+<img src="https://i.ibb.co/zX284NR/account.png">
  
 
 ###Account Actions API Reference

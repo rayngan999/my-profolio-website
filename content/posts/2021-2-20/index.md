@@ -1,7 +1,7 @@
 ---
 path: "/PopMatch"
-cover: "./logo.jpg"
-date: "2020-12-20"
+cover: "./logo.png"
+date: "2021-01-20"
 title: "PopMatch"
 published: true
 
@@ -18,11 +18,11 @@ published: true
 Our app aims to mitigate the lack of social interaction as a result of the pandemic and having everything go virtual. With PopMatch, users are able to create a profile with a short personalized interest form. Based on the availablity of current users online, they will get match with someone they have the most in common with. Once they both accept the match, they can have an extendable 5 minute video chat filled with fun ice-breaker questions to keep the conversation going. If they want to extend this further, they can also exchange social medias with a press of a button that leads right them to the other's social media profile. PopMatch combines the well-liked features of being able to meet new people like Omelge while giving them the choice in who they actually talk to similarly to Tinder, but with a touch of personalized mutual interest matching.
 
 ## App Flow
-<img src="https://user-images.githubusercontent.com/52867931/110840687-e1fbae00-8259-11eb-85f6-440a69328f29.png" width="160"> <img src="https://user-images.githubusercontent.com/52867931/110840692-e2944480-8259-11eb-925c-eeae40b31ba6.png" width="160"> <img src="https://user-images.githubusercontent.com/52867931/110840683-e0ca8100-8259-11eb-8381-8fa2d3fea11a.png" width="160"> 
+<img src="https://i.ibb.co/MVWsyyT/Apple-i-Phone-11-Pro-Max-Space-Grey-2.jpg"> <br>
 
-<img src="https://user-images.githubusercontent.com/52867931/110840690-e1fbae00-8259-11eb-8571-90b34eb878a5.png" width="160"> <img src="https://user-images.githubusercontent.com/52867931/110840685-e1631780-8259-11eb-9c1e-0f0ed8ba0478.png" width="160"> <img src="https://user-images.githubusercontent.com/52867931/110841422-b5946180-825a-11eb-8180-85db360b120c.png" width="160"> 
+ <img src="https://i.ibb.co/3FFBkTC/Apple-i-Phone-11-Pro-Max-Space-Grey-3.jpg"> <br>
 
-<img src="https://user-images.githubusercontent.com/52867931/110841425-b62cf800-825a-11eb-987d-c128861826b1.png" width="160"> <img src="https://user-images.githubusercontent.com/52867931/110841426-b62cf800-825a-11eb-884e-51b2d01b7b19.png" width="160"> <img src="https://i.ibb.co/qk3xGPj/Simulator-Screen-Shot-i-Phone-12-Pro-Max-2021-03-14-at-17-19-42.png" width="160">
+<img src="https://i.ibb.co/sKTppym/Apple-i-Phone-11-Pro-Max-Space-Grey-4.jpg">
 
 
 
@@ -61,7 +61,7 @@ Here lies the core of our app - the video chatting. After both the matched users
 
 <br>
 
-###Github Link: https://github.com/rayngan999/PopMatch
+<a style="font-weight:bold" href="https://github.com/rayngan999/PopMatch">Github Link</a>
 
 <br>
 

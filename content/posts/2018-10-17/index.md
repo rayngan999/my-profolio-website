@@ -1,6 +1,6 @@
 ---
 path: "/fingerprinting-research"
-cover: "./fingerprint2.jpg"
+cover: "./logo.png"
 date: "2018-10-17"
 title: "Fingerprinting Research"
 tags: []
@@ -77,3 +77,6 @@ From my previous programming experience, I have learned Python, C++, Html, CSS, 
 - Next, we will gather a dataset of both obfuscated and non-obfuscated fingerprinting scripts using different automated obfuscators. 
 - Using this dataset, we are going to put the FP-Inspector to test and evaluate its robustness against different obfuscators. 
 - Finally, we plan to improve FP-Inspector’s design and implementation by using the insights we have gained thus far from aforementioned steps.
+
+
+<a href="https://web.cs.ucdavis.edu/~zubair/students.html"> Gunrock Breakerspace (Professor Zubair's lab) </a>
