@@ -116,6 +116,7 @@ const Layout = ({ children }) => (
             }
             #hand{
               margin-right:1%;
+      
             }
             #colored{
               color:#7289da;

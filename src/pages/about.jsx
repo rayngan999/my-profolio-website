@@ -6,23 +6,15 @@ import styled from '@emotion/styled';
 
 
 
-const Half = styled.div`
-  
-  width: 90vw;
-  padding-left:20%;
-  padding-right:10%;
-  display: flex;
-  padding-top:3%;
-  justify-content: space-between;
 
-  
-
-`;
 
 const Content = styled.div`
 
  
-  width: 50%;
+  // width: 50%;
+  padding-left:20%;
+  padding-right:20%;
+  
   @media screen and (max-width:1200px) {
     width: 100%;
 }
@@ -39,8 +31,9 @@ const Content = styled.div`
 `;
 
 const ImageWrapper = styled.div`
-
-  width: 50%;
+margin-top: 2vh;
+padding-left:20%;
+  padding-right:20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,10 +49,10 @@ const ImageWrapper = styled.div`
 const SkillsContainer= styled.div`
 
 
-  margin-top: 3vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+margin-top: 3vh;
+display: flex;
+flex-direction: column;
+align-items: center;
   
   h1 {
     font-size: 3rem;
@@ -120,7 +113,10 @@ const About = center => (
       <div className="container">
         
       
-      <Half>
+      <ImageWrapper>
+            <img src="https://i.ibb.co/n32c5T4/TQBL8998.jpg" alt="about"></img>
+          </ImageWrapper>
+          <br></br>
           <Content>
               
              
@@ -134,19 +130,14 @@ const About = center => (
               {data.aboutParaThree}
             </p>
           </Content>
-          <ImageWrapper>
-            <img src={data.aboutImage} alt="about"></img>
-          </ImageWrapper>
-        
-          </Half>
+          
 
-          <br></br>
-          <br></br>
-          <br></br>
+
+
           
         <SkillsContainer>
-          <h1 id ='title2'>Skills</h1>
-          <br></br>
+
+
           <SkillsGrid>
             {data.skills.map(skill => (
               <Skills key={skill.id}>
