@@ -13,7 +13,7 @@ const Wrapper = styled.article`
   border-radius: ${props => props.theme.borderRadius.default};
   box-shadow: ${props => props.theme.shadow.feature.small.default};
   transition: ${props => props.theme.transitions.boom.transition};
-  height: 17.5rem;
+  height: 19rem;
   flex-basis: calc(99.9% * 1 / 3 - 1rem);
   max-width: calc(99.9% * 1 / 3 - 1rem);
   width: calc(99.9% * 1 / 3 - 1rem);
