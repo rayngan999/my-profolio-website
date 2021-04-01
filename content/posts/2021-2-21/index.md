@@ -110,17 +110,26 @@ Code: <a href="https://github.com/rayngan999/AI---Find-Path/blob/main/AStarExp_9
 ##Exponential of the height difference
 
 Dijsktra's algorithm 
+<br>
+
 <img src ="https://raw.githubusercontent.com/rayngan999/AI---Find-Path/main/Pic/Screen%20Shot%202021-01-28%20at%206.25.45%20PM.png">
+
 A* algorithm
+<br>
+
 <img src ="https://raw.githubusercontent.com/rayngan999/AI---Find-Path/main/Pic/Screen%20Shot%202021-02-05%20at%201.04.36%20PM.png">
 
 
 ##New height divided by old height:
 
 Dijsktra's algorithm 
+<br>
+
 <img src ="https://raw.githubusercontent.com/rayngan999/AI---Find-Path/main/Pic/Screen%20Shot%202021-01-28%20at%206.24.42%20PM.png">
 
 A* algorithm
+<br>
+
 <img src ="https://raw.githubusercontent.com/rayngan999/AI---Find-Path/main/Pic/Screen%20Shot%202021-02-02%20at%2012.52.07%20AM.png">
 
 
