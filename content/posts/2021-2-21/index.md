@@ -109,6 +109,9 @@ Code: <a href="https://github.com/rayngan999/AI---Find-Path/blob/main/AStarExp_9
 
 ##Exponential of the height difference
 
+Note:
+The red area is the explored path and the blue line is the optimal path
+
 Dijsktra's algorithm 
 <br>
 
