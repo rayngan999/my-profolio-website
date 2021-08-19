@@ -66,7 +66,7 @@ const Layout = ({ children }) => (
             margin-top: 2%;
             @media screen and (max-width:1200px) {
             
-              
+              margin-top: 8%;
               display: block;
               margin-left: auto;
               margin-right: auto;

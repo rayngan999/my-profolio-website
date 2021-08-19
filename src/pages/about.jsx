@@ -31,7 +31,7 @@ const Content = styled.div`
 `;
 
 const ImageWrapper = styled.div`
-margin-top: 2vh;
+margin-top: 8vh;
 padding-left:20%;
   padding-right:20%;
   display: flex;
@@ -39,9 +39,9 @@ padding-left:20%;
   justify-content: center;
   overflow: hidden;
   
-  @media screen and (max-width:1200px) {
-    display: none !important;
-}
+//   @media screen and (max-width:1200px) {
+//     display: none !important;
+// }
 
 `;
 
@@ -113,9 +113,9 @@ const About = center => (
       <div className="container">
         
       
-      <ImageWrapper>
-            <img src="https://i.ibb.co/n32c5T4/TQBL8998.jpg" alt="about"></img>
-          </ImageWrapper>
+       <ImageWrapper>
+       <img src="https://media3.giphy.com/media/pOEbLRT4SwD35IELiQ/giphy.gif?cid=790b7611c4c89cbfb2dd2d9a5cdf45b0708f83c3f89060b2&rid=giphy.gif&ct=g" alt="" style={{width: "1000px", height: "25vw"}}></img>
+          </ImageWrapper> 
           <br></br>
           <Content>
               

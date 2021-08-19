@@ -50,7 +50,7 @@ const Nav = styled.nav`
   }
   @media screen and (max-width:1200px) {
     justify-content: center;
-    padding-bottom: 8%;
+    
   }
   @media screen and (max-width:475px) {
     a {
@@ -63,70 +63,70 @@ const Nav = styled.nav`
 
 `;
 
-const DropDown = styled.div`
-/* Dropdown Button */
+// const DropDown = styled.div`
+// /* Dropdown Button */
 
-.bar {
-  width: 25px;
-  height: 4px;
-  background-color: white;
-  margin: 6px 0;
-  margin-left: auto;
-  margin-right: auto;
+// .bar {
+//   width: 25px;
+//   height: 4px;
+//   background-color: white;
+//   margin: 6px 0;
+//   margin-left: auto;
+//   margin-right: auto;
 
-}
-display: flex;
-  justify-content: flex-end;
-  font-family: Nunito,Avenir,Helvetica,"sans-serif";
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-top: 4%;
+// }
+// display: flex;
+//   justify-content: flex-end;
+//   font-family: Nunito,Avenir,Helvetica,"sans-serif";
+//   padding-right: 5%;
+//   padding-left: 5%;
+//   padding-top: 4%;
   
-.dropbtn {
-  width:55px;
-  margin-left: auto;
-  background-color: #7a94f0;
-  color: white;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  display: none;
-  @media screen and (max-width:1200px) {
-    display: block;
-  }
-}
+// .dropbtn {
+//   width:55px;
+//   margin-left: auto;
+//   background-color: #7a94f0;
+//   color: white;
+//   padding: 10px;
+//   font-size: 16px;
+//   border: none;
+//   display: none;
+//   @media screen and (max-width:1200px) {
+//     display: block;
+//   }
+// }
 
 
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  // position: absolute;
-  background-color: #f1f1f1;
-  width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+// /* Dropdown Content (Hidden by Default) */
+// .dropdown-content {
+//   display: none;
+//   // position: absolute;
+//   background-color: #f1f1f1;
+//   width: 200px;
+//   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   
  
-}
+// }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+// /* Links inside the dropdown */
+// .dropdown-content a {
+//   color: black;
+//   padding: 12px 16px;
+//   text-decoration: none;
+//   display: block;
+// }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+// /* Change color of dropdown links on hover */
+// .dropdown-content a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+// /* Show the dropdown menu on hover */
+// .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #7289da;}
+// /* Change the background color of the dropdown button when the dropdown content is shown */
+// .dropdown:hover .dropbtn {background-color: #7289da;}
 
-`
+// `
 
 
 const NavBar = () => (
