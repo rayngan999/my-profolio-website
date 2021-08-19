@@ -45,12 +45,18 @@ const Nav = styled.nav`
     margin-right: 1.5rem;
     transition: all ${props => props.theme.transitions.default.duration};
     &:hover {
-      
       color:#7289da;
     }
   }
   @media screen and (max-width:1200px) {
-    display: none;
+    justify-content: center;
+    padding-bottom: 8%;
+  }
+  @media screen and (max-width:475px) {
+    a {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 
 
@@ -147,7 +153,7 @@ const NavBar = () => (
 
       
     </Nav>
-    <DropDown>
+    {/* <DropDown>
     <div class="dropdown">
   <button class="dropbtn">
     <div class="bar"/>
@@ -162,7 +168,7 @@ const NavBar = () => (
   <a href={resume}>Resume</a>
   </div>
 </div>
-</DropDown>
+</DropDown> */}
     </div>
     
 
