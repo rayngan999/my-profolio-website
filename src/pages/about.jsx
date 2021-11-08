@@ -3,7 +3,24 @@ import Helmet from 'react-helmet';
 import { Layout} from 'layouts';
 import data from "../yourdata"
 import styled from '@emotion/styled';
-
+import pic1 from "../images/Photography/1.jpg"
+import pic2 from "../images/Photography/2.jpg"
+import pic3 from "../images/Photography/3.jpg"
+import pic4 from "../images/Photography/4.jpg"
+import pic5 from "../images/Photography/5.jpg"
+import pic6 from "../images/Photography/6.jpg"
+import pic7 from "../images/Photography/7.jpg"
+import pic8 from "../images/Photography/8.jpg"
+import pic9 from "../images/Photography/9.jpg"
+import pic10 from "../images/Photography/10.jpg"
+import pic11 from "../images/Photography/11.jpg"
+import pic12 from "../images/Photography/12.jpg"
+import pic13 from "../images/Photography/13.jpg"
+import pic14 from "../images/Photography/14.jpg"
+import pic15 from "../images/Photography/15.jpg"
+import pic16 from "../images/Photography/16.jpg"
+import pic17 from "../images/Photography/17.jpg"
+// import badminton_vid from "../images/badmiton.mp4"
 
 
 
@@ -64,6 +81,49 @@ align-items: center;
 
 `;
 
+const PhotoContainer = styled.div`
+padding-left:20%;
+  padding-right:20%;
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}.
+`;
 
 const SkillsGrid= styled.div`
 
@@ -106,6 +166,12 @@ const Skills= styled.div`
   }
 
 `;
+const Vid = styled.div`
+  max-width : 840px;
+
+`
+
+
 const About = center => (
   <Layout>
     <Helmet title={'Ray Ngan - About'} />
@@ -114,7 +180,7 @@ const About = center => (
         
       
        <ImageWrapper>
-       <img src="https://media3.giphy.com/media/pOEbLRT4SwD35IELiQ/giphy.gif?cid=790b7611c4c89cbfb2dd2d9a5cdf45b0708f83c3f89060b2&rid=giphy.gif&ct=g" alt="" style={{width: "1000px", height: "25vw"}}></img>
+       <img src= "https://i.ibb.co/gd8zfZd/about-pic.jpg" alt="" style={{width: "1250px", height: "27vw"}}></img>
           </ImageWrapper> 
           <br></br>
           <Content>
@@ -128,14 +194,56 @@ const About = center => (
               <br></br>
               <br></br>
               {data.aboutParaThree}
-            </p>
+              <br></br>
+              <br></br>
+       <vid>
+              <iframe width="100%" height="472.5"  
+              src="https://www.youtube.com/embed/F4ihq8xhWeI" >
+              </iframe>
+          </vid>
+              <br></br>
+              <br></br>
+              {data.aboutParaFour}
+              </p>
+              
+              
+              
+            
           </Content>
           
+          <PhotoContainer>
+             <div class="row"> 
+              <div class="column">
+              <img src= {pic1}  style={{width: "100%"}}></img>
+              <img src= {pic2}  style={{width: "100%"}}></img>
+              <img src= {pic11}  style={{width: "100%"}}></img>
+              <img src= {pic8}  style={{width: "100%"}}></img>
+              <img src= {pic13}  style={{width: "100%"}}></img>
+              
+              </div>
+               <div class="column">
+               <img src= {pic3}  style={{width: "100%"}}></img>
+              <img src= {pic5}  style={{width: "100%"}}></img>
+              <img src= {pic12}  style={{width: "100%"}}></img>
+              <img src= {pic6}  style={{width: "100%"}}></img>
+              <img src= {pic15}  style={{width: "100%"}}></img>
+              
+              </div>  
+              </div>
+       
+          </PhotoContainer> 
+          {/* <ImageWrapper>
+       <img src= "https://i.ibb.co/gd8zfZd/about-pic.jpg" alt="" style={{width: "1250px", height: "27vw"}}></img>
+          </ImageWrapper>  */}
+             
+         
+              
+   
 
 
 
           
-        <SkillsContainer>
+        {/* <SkillsContainer>
 
 
           <SkillsGrid>
@@ -146,7 +254,7 @@ const About = center => (
               </Skills>
             ))}
           </SkillsGrid>
-        </SkillsContainer>
+        </SkillsContainer> */}
       </div>
       </div>
   </Layout>
