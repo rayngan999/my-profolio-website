@@ -2,7 +2,7 @@
 path: "/AtarPongAI"
 cover: "./logo.png"
 date: "2021-05-10"
-title: "Connect4"
+title: "AtarPong"
 published: true
 
 ---
