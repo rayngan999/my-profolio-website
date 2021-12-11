@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import logo from '../../static/logo/header-logo.png';
-import resume from "../Wai_Hei_Ngan_Ray_resume.pdf"
+import resume from "../Ray_Ngan_Resume.pdf"
 
 
 
