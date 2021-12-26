@@ -9,11 +9,6 @@ import githubIcon from "../images/github.svg"
 import profileIcon from "../images/pic.jpeg"
 
 import FingerprintJS from '@fingerprintjs/fingerprintjs-pro'
-const fpPromise = FingerprintJS.load({ token: 'SFvk5N5P4i6tpt0dmsjB' })
-
-fpPromise
-  .then(fp => fp.get())
-  .then(result => console.log(result.visitorId))
 
 const Index = center => (
   
@@ -77,6 +72,11 @@ const Index = center => (
  
   </Layout>
 );
+const fpPromise = FingerprintJS.load({ token: 'SFvk5N5P4i6tpt0dmsjB' })
+
+fpPromise
+  .then(fp => fp.get())
+  .then(result => console.log(result.visitorId))
 
 export default Index;
 
