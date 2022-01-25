@@ -15,7 +15,7 @@ UC Davis (Industry collaborators: Apple, Mozilla)
 
 <br>
 
-###Thesis statement:
+###Overview:
 
 This research aims to evaluate the robustness of state-of-the-art fingerprinting detection approaches against code obfuscation. However, it is challenging to conduct this evaluation in the wild because JavaScript obfuscation on the web is uncommon or limited to simpler obfuscation techniques. Thus, any in the wild evaluation of fingerprinting detection approaches would be biased towards non-obfuscated scripts. To address this challenge, we design and implement a testbed that is able to seamlessly replace any target script with its obfuscated counterpart. The testbed allows us to evaluate the robustness of fingerprinting detection approaches against JavaScript obfuscation tools in a controlled manner. The testbed (1) collects scripts from a web page using an instrumented browser, (2) obfuscates the scripts using off-the-shelf JavaScript obfuscation tools, (3) replaces the original script with its obfuscated version during the next page load, and (4) evaluates the effectiveness of fingerprinting detection. By comparing the output of the control (original) and the treatment (obfuscated) group, we are able to systematically evaluate the robustness of fingerprinting detection against different obfuscation tools.
 
