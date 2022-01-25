@@ -22,6 +22,7 @@ const Layout = ({ children }) => (
           *:after {
             box-sizing: inherit;
           }
+          
           html {
             text-rendering: optimizeLegibility;
             overflow-x: hidden;
@@ -33,6 +34,7 @@ const Layout = ({ children }) => (
           }
           html,
           body {
+            
             width: 100%;
             height: 100%;
             margin: 0;

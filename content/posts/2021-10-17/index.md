@@ -1,7 +1,7 @@
 ---
 path: "/fingerprinting-research"
 cover: "./logo.png"
-date: "2018-10-17"
+date: "2021-10-17"
 title: "Fingerprinting Research"
 tags: []
 published: true
@@ -14,6 +14,10 @@ UC Davis (Industry collaborators: Apple, Mozilla)
 <hr>
 
 <br>
+
+###Thesis statement:
+
+This research aims to evaluate the robustness of state-of-the-art fingerprinting detection approaches against code obfuscation. However, it is challenging to conduct this evaluation in the wild because JavaScript obfuscation on the web is uncommon or limited to simpler obfuscation techniques. Thus, any in the wild evaluation of fingerprinting detection approaches would be biased towards non-obfuscated scripts. To address this challenge, we design and implement a testbed that is able to seamlessly replace any target script with its obfuscated counterpart. The testbed allows us to evaluate the robustness of fingerprinting detection approaches against JavaScript obfuscation tools in a controlled manner. The testbed (1) collects scripts from a web page using an instrumented browser, (2) obfuscates the scripts using off-the-shelf JavaScript obfuscation tools, (3) replaces the original script with its obfuscated version during the next page load, and (4) evaluates the effectiveness of fingerprinting detection. By comparing the output of the control (original) and the treatment (obfuscated) group, we are able to systematically evaluate the robustness of fingerprinting detection against different obfuscation tools.
 
 ###Accomplishments:
 During my research, I worked with professor Zubair Shafiq for studying the impact of various obfuscation techniques against existing browser fingerprinting detection approaches. 
@@ -66,17 +70,6 @@ Existing browser fingerprinting detection approaches rely on static or dynamic a
 
 This research is going to allow me to gain hands-on experience of real-world security and machine learning applications. For this research, I will participate in weekly meetings as well as contribute in any possible ways, whether it is to write code to automate the generation of obfuscation dataset, gain an in-depth understanding of the state-of-the-art FP-Inspector tool, and to improve FP-Inspector by implementing a obfuscation code detection module. This project will also allow me to get experience working in a research setting with other researchers.
 
-####Motivation:
-
-From my previous programming experience, I have learned Python, C++, Html, CSS, and Javascript. Since this research is mainly focused on analyzing Javascript, I feel I could put my skills to test and allow me to expand my knowledge on this field.
-
-####Project Plan:
-
-- We will first understand and learn the inner workings of FP-Inspector, as well as, popular JavaScript obfuscation tools. 
-- We will then research different available obfuscators and analyze which ones are most likely to impact FP-Inspector’s accuracy. 
-- Next, we will gather a dataset of both obfuscated and non-obfuscated fingerprinting scripts using different automated obfuscators. 
-- Using this dataset, we are going to put the FP-Inspector to test and evaluate its robustness against different obfuscators. 
-- Finally, we plan to improve FP-Inspector’s design and implementation by using the insights we have gained thus far from aforementioned steps.
 
 
 <a href="https://web.cs.ucdavis.edu/~zubair/students.html"> Gunrock Breakerspace (Professor Zubair's lab) </a>

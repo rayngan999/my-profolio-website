@@ -1,7 +1,7 @@
 ---
 path: "/safespace"
 cover: "./safespace.png"
-date: "2018-10-15"
+date: "2018-09-06"
 title: "Safe Space"
 tags: ["HOME"]
 published: true

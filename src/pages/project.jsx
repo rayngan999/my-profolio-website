@@ -7,6 +7,7 @@ import { Header, PostList } from 'components';
 import { Layout } from 'layouts';
 
 const PostWrapper = styled.div`
+margin-top: 3rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

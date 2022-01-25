@@ -8,8 +8,6 @@ import githubIcon from "../images/github.svg"
 
 import profileIcon from "../images/pic.jpeg"
 
-import FingerprintJS from '@fingerprintjs/fingerprintjs-pro'
-
 
 const Index = center => (
   
