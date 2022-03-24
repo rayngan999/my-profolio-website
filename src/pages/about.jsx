@@ -176,11 +176,11 @@ const About = center => (
   <Layout>
     <Helmet title={'Ray Ngan - About'} />
     <div className="section">
-      <div className="container">
+      <div className="container_about">
         
       
        <ImageWrapper>
-       <img src= "https://i.ibb.co/gd8zfZd/about-pic.jpg" alt="" style={{width: "1250px", height: "27vw"}}></img>
+       <img src= "https://i.ibb.co/qjX5GQx/B517-F0-DD-8-A36-4-B74-A069-3-E7-DA465-A21-E-1-201-a.jpg" alt="" style={{width: "1250px", height: "28vw"}}></img>
           </ImageWrapper> 
           <br></br>
           <Content>

@@ -15,10 +15,10 @@ const Index = center => (
     <Helmet title={'Ray Ngan - Home'} />
     
     <div className="container">
+     
       
-      <div className="picture-wrapper">
         <img src={profileIcon} alt="icons" id="prof-img" ></img>
-        </div>
+    
         <div className="index-wrapper">
        
             <h1>
@@ -73,5 +73,3 @@ const Index = center => (
   
 );
 export default Index;
-
-

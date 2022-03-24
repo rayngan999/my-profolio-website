@@ -1,7 +1,7 @@
 ---
 path: "/COVID-19-Vaccine"
 cover: "./logo3.png"
-date: "2021-09-10"
+date: "2021-06-10"
 title: "COVID-19 Vaccine Outzome Predictor"
 tags: []
 published: true
