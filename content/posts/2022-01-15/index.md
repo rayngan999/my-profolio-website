@@ -1,7 +1,7 @@
 ---
 path: "/SimpleShell"
 cover: "./logo3.png"
-date: "2021-09-10"
+date: "2022-01-15"
 title: "Simple Shell"
 tags: []
 published: true
@@ -143,6 +143,6 @@ files, and use `diff` to display the differences between the redirected files.
 Out test cases include not only those available on the project specs but also
 extra ones that cover more edge cases based on the feature specification.
 
-The code to our work is provided in our GitHub repository, which can be found using this link: <a href="https://github.com/rayngan999/simple-shell
+<a href="https://github.com/rayngan999/simple-shell
 "> Github Link </a>
 
