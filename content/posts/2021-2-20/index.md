@@ -9,13 +9,13 @@ published: true
 #PopMatch
 <hr>
 
-<img src="https://user-images.githubusercontent.com/52867931/110848697-3ce5d300-8263-11eb-90bb-ad46beca2aee.png" width="100">  is a video chatting app that allows users to have 1 on 1 meetings with new people and like minded thinkers. It's a way to create social bonds and network for university students. 
+<img src="https://user-images.githubusercontent.com/52867931/110848697-3ce5d300-8263-11eb-90bb-ad46beca2aee.png" width="100">  is a video chatting app that allows users to have 1 on 1 meetings with new people and like-minded thinkers. It's a way to create social bonds and networks for university students. 
 
 
 
 ##Description
 
-Our app aims to mitigate the lack of social interaction as a result of the pandemic and having everything go virtual. With PopMatch, users are able to create a profile with a short personalized interest form. Based on the availablity of current users online, they will get match with someone they have the most in common with. Once they both accept the match, they can have an extendable 5 minute video chat filled with fun ice-breaker questions to keep the conversation going. If they want to extend this further, they can also exchange social medias with a press of a button that leads right them to the other's social media profile. PopMatch combines the well-liked features of being able to meet new people like Omelge while giving them the choice in who they actually talk to similarly to Tinder, but with a touch of personalized mutual interest matching.
+Our app aims to mitigate the lack of social interaction as a result of the pandemic and have everything go virtual. With PopMatch, users are able to create a profile with a short personalized interest form. Based on the availability of current users online, they will get matched with someone they have the most in common with. Once they both accept the match, they can have an extendable 5-minute video chat filled with fun ice-breaker questions to keep the conversation going. If they want to extend this further, they can also exchange social media with a press of a button that leads right them to the other's social media profile. PopMatch combines the well-liked features of being able to meet new people like Omegle while giving them the choice in who they actually talk to similarly to Tinder, but with a touch of personalized mutual interest matching.
 
 ## App Flow
 <img src="https://i.ibb.co/MVWsyyT/Apple-i-Phone-11-Pro-Max-Space-Grey-2.jpg"> <br>
