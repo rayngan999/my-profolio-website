@@ -1,7 +1,7 @@
 ---
 path: "/fingerprinting-research"
 cover: "./logo.png"
-date: "2022-03-17"
+date: "2022-04-12"
 title: "Fingerprinting Research"
 tags: []
 published: true
