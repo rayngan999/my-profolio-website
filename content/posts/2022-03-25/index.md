@@ -100,32 +100,36 @@ packet = final_ip_header + final_tcp_header
 SYN scan is the default and the most popular scan option, since it can performed quickly, scanning thousands of ports per seconds. SYN scan is relatively unobtrusive and stealthy because it neve completes the TCP connections.
  
 In TCP SYN scan, we will not complete the three-way handshake of sending a `[ACK]` ourselves and we will terminate the connection after a state is defined.
- 
+
 #### SYN scan of open port 22
  
 <img src = "https://nmap.org/book/images/ereet/Ereet_Packet_Trace_Syn_Open.png" >
- 
+
 You send a `[SYN]` packet and then wait for the response.
- 
+
 If a `[SYN ACK]` is received, it indicates that the port is open
- 
+
+<br>
+
 #### SYN scan of closed port 113
  
 <img src = "https://nmap.org/book/images/ereet/Ereet_Packet_Trace_Syn_Closed.png" >
- 
+
 You send a `[SYN]` packet and then wait for the response.
- 
+
 If a `[RST]` is received, it indicates that it’s closed.
- 
+
+<br>
+
 #### SYN scan of filtered port 139
- 
+
 <img src = "https://nmap.org/book/images/ereet/Ereet_Packet_Trace_Syn_Filtered.png" >
- 
+
 In the case, when multiple `[SYN]` packets are sent and there is no response, these ports will be classified as filtered.
- 
- 
+
+<br>
+
 ## Final Code
- 
 ```
 import socket
 import struct
@@ -220,25 +224,29 @@ if __name__ == "__main__":
    main(src_address, dst_address)
  
 ```
+<br>
+
 ## Compile and Run
- 
+
 In terminal, type:
 ```sudo python3 port_scanner.py ```
 Then, type in the source ip address. You can get this using the command hostname -I from the command line. Also, type in the destination ip address.
 The program will then go through the port 0 to port 999 and send in a custom constructed packet with a timeout of 1.25s. If it exceeds this time, then this port would be filtered. Both filtered and closed ports will be ignored and only opened ports will be printed to the screen.
- 
+
 *Please note that this program is written for Linux only.
- 
- 
- 
- 
+
+
+
+
 ### References:
- 
+
 To learn more about TCP SYN Scan:
+<br>
 https://nmap.org/book/synscan.html
- 
-To learn more about port scanning: 
+
+To learn more about port scanning:
+<br>
 https://nmap.org/book/port-scanning.html
- 
- 
+<br>
+
 <a href="https://github.com/rayngan999/PortScanner/blob/main/port_scanner.py"> Github Link </a>
