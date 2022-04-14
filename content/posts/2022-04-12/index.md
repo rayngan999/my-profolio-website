@@ -14,9 +14,6 @@ published: true
 UC Davis (Industry collaborators: Apple, Mozilla)
 <hr>
 
-<br>
-
-
 As the web moves away from stateful tracking, browser fingerprinting is becoming more prevalent. Unfortunately, existing approaches to detect browser fingerprinting do not take into account potential evasion tactics such as code obfuscation.
 
 This research aims to evaluate the robustness of state-of-the-art fingerprinting detection approaches against code obfuscation. However, it is challenging to conduct this evaluation in the wild because JavaScript obfuscation on the web is uncommon or limited to simpler obfuscation techniques. Thus, any in the wild evaluation of fingerprinting detection approaches would be biased towards non-obfuscated scripts. 
