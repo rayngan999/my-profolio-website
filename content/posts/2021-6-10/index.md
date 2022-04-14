@@ -2,13 +2,13 @@
 path: "/COVID-19-Vaccine"
 cover: "./logo3.png"
 date: "2021-06-10"
-title: "COVID-19 Vaccine Outzome Predictor"
+title: "COVID-19 Vaccine Outcome Predictor"
 tags: []
 published: true
 ---
 
 
-#COVID-19 Vaccine Outzome Predictor
+#COVID-19 Vaccine Outcome Predictor
 <hr>
 
 <br>
