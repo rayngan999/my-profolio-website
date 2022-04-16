@@ -22,7 +22,10 @@ To address this challenge, we design and implement a testbed that is able to sea
 
 
 ### Testbed
+
+<p align="center">
 <img src="https://i.ibb.co/sydV7N6/Streamline-drawio-1.png" >
+</p>
 
 Overview of the evaluation approach: 
 
@@ -38,8 +41,9 @@ Overview of the evaluation approach:
 ### Replacement Mechanism for Dynamic Analysis
 
 
-
+<p align="center">
 <img src="https://i.ibb.co/VB9XY3R/Replacement-drawio-1.png" >
+</p>
 
 Since dynamic analysis requires execution traces of the javaScript, I developed a replacement mechanism tp replace the obfuscated versions of the scripts on-the-fly for the treatment group.
 

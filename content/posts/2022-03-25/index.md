@@ -102,8 +102,10 @@ SYN scan is the default and the most popular scan option, since it can performed
 In TCP SYN scan, we will not complete the three-way handshake of sending a `[ACK]` ourselves and we will terminate the connection after a state is defined.
 
 #### SYN scan of open port 22
- 
+
+<p align="center">
 <img src = "https://nmap.org/book/images/ereet/Ereet_Packet_Trace_Syn_Open.png" >
+</p>
 
 You send a `[SYN]` packet and then wait for the response.
 
@@ -112,8 +114,10 @@ If a `[SYN ACK]` is received, it indicates that the port is open
 <br>
 
 #### SYN scan of closed port 113
- 
+
+<p align="center">
 <img src = "https://nmap.org/book/images/ereet/Ereet_Packet_Trace_Syn_Closed.png" >
+</p>
 
 You send a `[SYN]` packet and then wait for the response.
 
@@ -123,7 +127,9 @@ If a `[RST]` is received, it indicates that it’s closed.
 
 #### SYN scan of filtered port 139
 
+<p align="center">
 <img src = "https://nmap.org/book/images/ereet/Ereet_Packet_Trace_Syn_Filtered.png" >
+</p>
 
 In the case, when multiple `[SYN]` packets are sent and there is no response, these ports will be classified as filtered.
 
