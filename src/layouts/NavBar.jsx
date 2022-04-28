@@ -86,7 +86,7 @@ const NavBar = () => (
       <Link to="/project">Project</Link>
      
       <Link to="/about">About</Link>
-      {/* <a href={resume}>Resume</a> */}
+      <a href={resume}>Resume</a>
 
       
     </Nav>
