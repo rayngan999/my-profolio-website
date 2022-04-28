@@ -2,7 +2,7 @@ const config = require('./config/site');
 
 module.exports = {
   siteMetadata: {
-    pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+    pathPrefix: '/my-profolio-website', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
   title: "Ray Ngan", // Navigation and Site Title
   titleAlt: 'Ray Ngan', // Title for JSONLD
   description: "Ray Ngan's Portfolio Website",
