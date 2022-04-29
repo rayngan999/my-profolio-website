@@ -22,7 +22,6 @@ const Layout = ({ children }) => (
           *:after {
             box-sizing: inherit;
           }
-          
           html {
             text-rendering: optimizeLegibility;
             overflow-x: hidden;
@@ -34,12 +33,12 @@ const Layout = ({ children }) => (
           }
           html,
           body {
-            
             width: 100%;
             height: 100%;
             margin: 0;
             padding: 0;
           }
+
           body {
             display: flex;
             flex-direction: column;
@@ -54,21 +53,17 @@ const Layout = ({ children }) => (
             text-decoration: none;
             color: ${theme.colors.linkHover};
           }
-        .container_about{
-          margin-top:1%;
-        }
-        .container{
-          margin-top:8%;
-        }
+          
+        
           
           #prof-img {
            
-            height:395px;
+            height:350px;
             border-radius: 50%;
             float: right;
             margin-left:10%;
             margin-right:20%;
-            
+            margin-top: 2%;
             @media screen and (max-width:1200px) {
             
               margin-top: 8%;
@@ -79,17 +74,17 @@ const Layout = ({ children }) => (
             }
           }
           
-          
+        
           .index-wrapper {
+           
+            
+            margin-top: 8%;
+            margin-bottom: 10%;
             margin-left:20%;
             margin-right:20%;
             display: flex;
             flex-direction: column;
-            @media screen and (max-width:1200px) {
             
-              margin-top: 5%;
-              
-            }
             h2 {
               font-family: Nunito,Avenir,Helvetica,"sans-serif";
               font-size: 1.6em;
@@ -180,8 +175,12 @@ const Layout = ({ children }) => (
               }
               
             }
+
           }
+
          
+
+
          
             
           }

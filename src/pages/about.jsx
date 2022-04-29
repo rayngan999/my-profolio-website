@@ -6,20 +6,20 @@ import styled from '@emotion/styled';
 import pic1 from "../images/Photography/1.jpg"
 import pic2 from "../images/Photography/2.jpg"
 import pic3 from "../images/Photography/3.jpg"
-// import pic4 from "../images/Photography/4.jpg"
+import pic4 from "../images/Photography/4.jpg"
 import pic5 from "../images/Photography/5.jpg"
 import pic6 from "../images/Photography/6.jpg"
-// import pic7 from "../images/Photography/7.jpg"
+import pic7 from "../images/Photography/7.jpg"
 import pic8 from "../images/Photography/8.jpg"
-// import pic9 from "../images/Photography/9.jpg"
-// import pic10 from "../images/Photography/10.jpg"
+import pic9 from "../images/Photography/9.jpg"
+import pic10 from "../images/Photography/10.jpg"
 import pic11 from "../images/Photography/11.jpg"
 import pic12 from "../images/Photography/12.jpg"
 import pic13 from "../images/Photography/13.jpg"
-// import pic14 from "../images/Photography/14.jpg"
+import pic14 from "../images/Photography/14.jpg"
 import pic15 from "../images/Photography/15.jpg"
-// import pic16 from "../images/Photography/16.jpg"
-// import pic17 from "../images/Photography/17.jpg"
+import pic16 from "../images/Photography/16.jpg"
+import pic17 from "../images/Photography/17.jpg"
 // import badminton_vid from "../images/badmiton.mp4"
 
 
@@ -28,7 +28,7 @@ import pic15 from "../images/Photography/15.jpg"
 const Content = styled.div`
 
  
-
+  // width: 50%;
   padding-left:20%;
   padding-right:20%;
   
@@ -48,7 +48,7 @@ const Content = styled.div`
 `;
 
 const ImageWrapper = styled.div`
-
+margin-top: 8vh;
 padding-left:20%;
   padding-right:20%;
   display: flex;
@@ -176,11 +176,11 @@ const About = center => (
   <Layout>
     <Helmet title={'Ray Ngan - About'} />
     <div className="section">
-      <div className="container_about">
+      <div className="container">
         
       
        <ImageWrapper>
-       <img src= "https://i.ibb.co/qjX5GQx/B517-F0-DD-8-A36-4-B74-A069-3-E7-DA465-A21-E-1-201-a.jpg" alt="" style={{width: "1250px", height: "28vw"}}></img>
+       <img src= "https://i.ibb.co/gd8zfZd/about-pic.jpg" alt="" style={{width: "1250px", height: "27vw"}}></img>
           </ImageWrapper> 
           <br></br>
           <Content>

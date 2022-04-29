@@ -7,7 +7,6 @@ import { Header, PostList } from 'components';
 import { Layout } from 'layouts';
 
 const PostWrapper = styled.div`
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -75,7 +74,7 @@ Index.propTypes = {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      limit: 20
+      limit: 9
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
