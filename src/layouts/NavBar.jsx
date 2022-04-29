@@ -149,7 +149,7 @@ const NavBar = () => (
       <Link to="/project">Project</Link>
       {/*<Link to="/blog">Blog</Link>*/}
       <Link to="/about">About</Link>
-      <a href={resume}>Resume</a>
+      {/* <a href={resume}>Resume</a> */}
 
       
     </Nav>
