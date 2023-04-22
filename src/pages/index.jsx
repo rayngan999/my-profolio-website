@@ -28,8 +28,8 @@ const Index = center => (
               
             </h1>
        
-            <h2> Software Developer and Undergraduate CS Researcher</h2>
-            <p> Currently pursuring a Bachelor's degree in Computer Science at UC Davis. I specialized in <span id="bold">Web Security</span> <span role="img" aria-label="Web" id="hand">🔒,</span><span id="bold">Web Development</span> <span role="img" aria-label="Web" id="hand">💻,</span><span id="bold">iOS Development</span> <span role="img" aria-label="ios" id="hand">📱,</span><span id="bold">and Artificial Intelligence </span><span role="img" aria-label="Robot"id="hand">🤖</span></p>
+            <h2> Software Engineer </h2>
+            <p> Currently working at Palo Alto Networks. I have graduated from UC Davis with a Bachelor's degree in Computer Science. I specialized in <span id="bold">Cybersecurity</span> <span role="img" aria-label="Web" id="hand">🔒,</span><span id="bold">Software Development</span>, and everything in between. </span></p>
             
             
           <div className="social-icons">
