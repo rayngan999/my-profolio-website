@@ -50,7 +50,7 @@ export default {
   aboutParaThree:
   "Other than work, one of my biggest hobbies is badminton. I started playing badminton when I was 7 and it has become part of my passion ever since. I am still actively competing in many different tournaments as I am still trying to improve and master the game.",
   aboutParaFour:
-  "Other than badminton, one of my other favorite hobbies is photography. I love how much creative space you have when composing different images. The sky’s the limit! Here are some pictures I took and created.",
+  "I also love how much creative space you get when composing different images. Here are some pictures I have taken and created.",
     // "Other than technical skills, this research experience allows me to develop my interpersonal skills. Each week we would have our team meeting with fellow undergraduate, graduate researchers, and the professor. During these team meetings, we will go over what we have been working on, some challenges that we encountered, and what we should do going forward. In these meetings, we can voice our opinions and contribute to the discussion for the research. I found this to be a very valuable opportunity for me since it is very different from what the normal computer science classes would offer. Fostering a conversation and discussing a topic that I am passionate about is very exciting and intriguing for me. I truly believe that this research experience gives me an unique perception of software development.",
     // aboutImage:
   profilefic,
