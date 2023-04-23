@@ -6,7 +6,7 @@ import linkedinIcon from "../images/linkedin.png"
 import envelopeIcon from "../images/filled-sent.png"
 import githubIcon from "../images/github.svg"
 
-import profileIcon from "../images/IMG-5656_S.JPG"
+// import profileIcon from "../images/IMG-5656_S.JPG"
 
 
 const Index = center => (
@@ -17,7 +17,7 @@ const Index = center => (
     <div className="container">
      
       
-        <img src={profileIcon} alt="icons" id="prof-img" ></img>
+        <img src={"../images/IMG-5656_S.JPG"} alt="icons" id="prof-img" ></img>
     
         <div className="index-wrapper">
        
