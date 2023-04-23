@@ -6,7 +6,7 @@ import linkedinIcon from "../images/linkedin.png"
 import envelopeIcon from "../images/filled-sent.png"
 import githubIcon from "../images/github.svg"
 
-import profileIcon from "../images/pic.jpeg"
+import profileIcon from "../images/IMG-5656_S.JPG"
 
 
 const Index = center => (
