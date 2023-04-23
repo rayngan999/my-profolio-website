@@ -29,7 +29,7 @@ const Index = center => (
             </h1>
        
             <h2> Software Engineer </h2>
-            <p> Currently working at Palo Alto Networks. I have graduated from UC Davis with a Bachelor's degree in Computer Science. I specialized in <span>cybersecurity</span>,<span> software Development</span>,<span> and everything in between. </span></p>
+            <p> Currently working at Palo Alto Networks. I have graduated from UC Davis with a Bachelor's degree in Computer Science. I specialized in <span>cybersecurity</span>,<span> software development</span>,<span> and everything in between. </span></p>
             
             
           <div className="social-icons">
