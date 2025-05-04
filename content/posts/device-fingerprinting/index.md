@@ -7,13 +7,14 @@ tags: []
 published: true
 ---
 
-<img src="https://i.ibb.co/7GCPQHm/UC-Davis-Logo.png">
-
-
 #Browser Fingerprinting Reasearch 
-UC Davis (Industry collaborators: Apple, Mozilla)
-<hr>
+University of California, Davis (Industry collaborators: Apple, Mozilla)
 
+<a href="https://arxiv.org/abs/2206.13599v1"> Research paper: "Nowhere to Hide: Detecting Obfuscated Fingerprinting Scripts" </a>
+
+
+
+## Overview
 As the web moves away from stateful tracking, browser fingerprinting is becoming more prevalent. Unfortunately, existing approaches to detect browser fingerprinting do not take into account potential evasion tactics such as code obfuscation.
 
 This research aims to evaluate the robustness of state-of-the-art fingerprinting detection approaches against code obfuscation. However, it is challenging to conduct this evaluation in the wild because JavaScript obfuscation on the web is uncommon or limited to simpler obfuscation techniques. Thus, any in the wild evaluation of fingerprinting detection approaches would be biased towards non-obfuscated scripts. 
@@ -21,7 +22,7 @@ This research aims to evaluate the robustness of state-of-the-art fingerprinting
 To address this challenge, we design and implement a testbed that is able to seamlessly replace any target script with its obfuscated counterpart. The testbed allows us to evaluate the robustness of fingerprinting detection approaches against JavaScript obfuscation tools in a controlled manner. 
 
 
-### Testbed
+## Testbed
 
 <p align="center">
 <img src="https://i.ibb.co/sydV7N6/Streamline-drawio-1.png" >
@@ -67,7 +68,7 @@ By comparing the output of the control (original) and the treatment (obfuscated)
 - Combing static and dynamic analysis is still effective.
 
 
-## Notes
+## Remarks
 During my research, I worked with professor Zubair Shafiq for studying the impact of various obfuscation techniques against existing browser fingerprinting detection approaches. 
 
 In order to learn more about the effects of obfuscated methods on existing browser fingerprinting detection, we first needed to have a dataset of obfuscated and original scripts to put to test. Using the web crawling framework OpenWPM [1], I have collected 59507 scripts from various websites domains that were identified to contain fingerprinting scripts from previous research [2]. From these scripts, I then filtered out the duplicate scripts that were from the same top level website domains. The top level website domains are the domains of the scripts that were collected from the crawl.
@@ -101,6 +102,5 @@ As an undergraduate, I was able to apply my knowledge from classes to the real w
 [9] Selenium: https://www.selenium.dev/documentation/en/
 
 [10] mitmProxy: https://mitmproxy.org/
-
 
 <a href="https://web.cs.ucdavis.edu/~zubair/students.html"> Gunrock Breakerspace (Professor Zubair's lab) </a>

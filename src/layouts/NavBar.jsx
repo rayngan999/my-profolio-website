@@ -76,11 +76,9 @@ const NavBar = () => (
 
     <Nav>
       <Link to="/">Home</Link>
-      <Link to="/project">Project</Link>
+      <Link to="/projects">Projects</Link>
       {/* <Link to="/about">About</Link> */}
-      <a href={resume} target="_blank" rel="noopener noreferrer">
-        Resume
-      </a>
+      {/* <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a> */}
     </Nav>
   </div>
 );

@@ -40,7 +40,7 @@ For the cost functions above, I have created an admissible heuristic, document t
 
 Here, I first implemented the Dijsktra's algorithm on top of a starter code of the enviorment set up. After I have tested that it is functioning correctly, I then added my heuristics function. With this heuristics function, the agent will evaluate nodes by combining both the path cost and the cost to get from the node to the goal. Since we don't know the exact cost from the node to the goal, we need to have this heuristics function that is always underestimating the true cost
 
-Heuristics function for `Exponential of the height difference`:
+Heuristics function for 'Exponential of the height difference':
 ```
 private double getHeuristic(final TerrainMap map, final Point pt1, final Point pt2){
         double curHeight = map.getTile(pt1);
@@ -68,7 +68,7 @@ Code: <a href="https://github.com/rayngan999/AI---Find-Path/blob/main/AStarExp_9
 
 
 
-Heuristics function for `New height divided by old height`:
+Heuristics function for 'New height divided by old height':
 
 ``` 
 private double getHeuristic(final TerrainMap map, final Point pt1, final Point pt2){

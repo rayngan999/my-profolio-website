@@ -11,21 +11,21 @@ const PostWrapper = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 1rem 4rem 1rem 4rem;
+  margin: 1rem 15% 1rem 15%;
   z-index: 0;
-  @media (max-width: 1200px) {
-    margin: 4rem 2rem 1rem 2rem;
+  @media (max-width: 1500px) {
+    margin: 1rem 20% 1rem 20%;
   }
-  @media (max-width: 800px) {
-    margin: 4rem 3.5rem 1rem 3.5rem;
+  @media (max-width: 1100px) {
+    margin: 1rem 22% 1rem 22%;
   }
 `;
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
-      <Helmet title={'Ray Ngan - Project'} />
-      <div className="container">
+      <Helmet title={'Ray Ngan - Projects'} />
+      <div className="container_projects">
       <Header title=""></Header>
       <PostWrapper>
         {edges.map(({ node }) => {

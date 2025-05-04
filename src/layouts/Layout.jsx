@@ -54,11 +54,14 @@ const Layout = ({ children }) => (
           .container_about {
             margin-top: 1%;
           }
-          .container {
+          .container_projects {
             margin-top: 3%;
           }
           .container_home {
-            margin-top: 4%;
+            margin-top: 5%;
+          }
+          .container_bubble {
+            margin-top: 5%;
           }
 
           #prof-img {
@@ -67,8 +70,8 @@ const Layout = ({ children }) => (
             border-radius: 50%;
             float: right;
             margin-top: 3%;
-            margin-left:10%;
-            margin-right:20%;
+            margin-left:15%;
+            margin-right:15%;
             @media screen and (max-width:1200px) {
               margin-top: 8%;
               display: block;
@@ -79,8 +82,8 @@ const Layout = ({ children }) => (
           }
 
           .index-wrapper {
-            margin-left: 20%;
-            margin-right: 20%;
+            margin-left: 15%;
+            margin-right: 15%;
             display: flex;
             flex-direction: column;
             @media screen and (max-width: 1200px) {

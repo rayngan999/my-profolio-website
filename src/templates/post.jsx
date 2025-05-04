@@ -46,7 +46,7 @@ const Post = ({ data}) => {
         <Content input={html} />
         <br/>
         < TagsContainer>
-        <Link to="/project">Back</Link>
+        <Link to="/projects">Back</Link>
         </TagsContainer>
       </Container>
       
