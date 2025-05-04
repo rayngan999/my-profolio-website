@@ -107,9 +107,9 @@ In TCP SYN scan, we will not complete the three-way handshake of sending a `[ACK
 <img src = "https://nmap.org/book/images/ereet/Ereet_Packet_Trace_Syn_Open.png" >
 </p>
 
-You send a `[SYN]` packet and then wait for the response.
+You send a [SYN] packet and then wait for the response.
 
-If a `[SYN ACK]` is received, it indicates that the port is open
+If a [SYN ACK] is received, it indicates that the port is open
 
 <br>
 
@@ -119,9 +119,9 @@ If a `[SYN ACK]` is received, it indicates that the port is open
 <img src = "https://nmap.org/book/images/ereet/Ereet_Packet_Trace_Syn_Closed.png" >
 </p>
 
-You send a `[SYN]` packet and then wait for the response.
+You send a [SYN] packet and then wait for the response.
 
-If a `[RST]` is received, it indicates that it’s closed.
+If a [RST] is received, it indicates that it’s closed.
 
 <br>
 
@@ -131,7 +131,7 @@ If a `[RST]` is received, it indicates that it’s closed.
 <img src = "https://nmap.org/book/images/ereet/Ereet_Packet_Trace_Syn_Filtered.png" >
 </p>
 
-In the case, when multiple `[SYN]` packets are sent and there is no response, these ports will be classified as filtered.
+In the case, when multiple [SYN] packets are sent and there is no response, these ports will be classified as filtered.
 
 <br>
 
@@ -235,7 +235,7 @@ if __name__ == "__main__":
 ## Compile and Run
 
 In terminal, type:
-```sudo python3 port_scanner.py ```
+<p>sudo python3 port_scanner.py<p>
 Then, type in the source ip address. You can get this using the command hostname -I from the command line. Also, type in the destination ip address.
 The program will then go through the port 0 to port 999 and send in a custom constructed packet with a timeout of 1.25s. If it exceeds this time, then this port would be filtered. Both filtered and closed ports will be ignored and only opened ports will be printed to the screen.
 

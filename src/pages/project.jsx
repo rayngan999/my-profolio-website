@@ -7,7 +7,6 @@ import { Header, PostList } from 'components';
 import { Layout } from 'layouts';
 
 const PostWrapper = styled.div`
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -15,19 +14,18 @@ const PostWrapper = styled.div`
   margin: 1rem 4rem 1rem 4rem;
   z-index: 0;
   @media (max-width: 1200px) {
-
     margin: 4rem 2rem 1rem 2rem;
   }
   @media (max-width: 800px) {
     margin: 4rem 3.5rem 1rem 3.5rem;
   }
 `;
-
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
       <Helmet title={'Ray Ngan - Project'} />
+      <div className="container">
       <Header title=""></Header>
       <PostWrapper>
         {edges.map(({ node }) => {
@@ -45,6 +43,7 @@ const Index = ({ data }) => {
           );
         })}
       </PostWrapper>
+      </div>
     </Layout>
   );
 };

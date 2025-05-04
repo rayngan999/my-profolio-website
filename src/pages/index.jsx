@@ -6,30 +6,34 @@ import linkedinIcon from "../images/linkedin.png"
 import envelopeIcon from "../images/filled-sent.png"
 import githubIcon from "../images/github.svg"
 
-import profileIcon from "../images/pro_pic.jpeg"
+import profileIcon from "../images/pro.png"
 
+
+const transparentBubbleStyle = {
+  background: 'rgba(255, 255, 255, 0.12)',
+  borderRadius: '50px',     // Adjust for more or less rounded corners
+  paddingTop: '15px',          // Add padding inside the bubble
+  paddingBottom: '70px',          // Add padding inside the bubble
+  // marginLeft: '10px',  // Add left margin
+  // marginRight: '10px', // Add right margin
+};
 
 const Index = center => (
   
   <Layout>
     <Helmet title={'Ray Ngan - Home'} />
-    
-    <div className="container">
+    <div className="container_home" style={transparentBubbleStyle}>
+    <div className="container_home">
      
       
         <img src={profileIcon} alt="icons" id="prof-img" ></img>
     
         <div className="index-wrapper">
-       
-            <h1>
-            <span role="img" aria-label="Hand" id="hand">👋</span>
-            Hi there, I
-            <span id="colored">'</span>m Ray<span id="colored">.</span>
-              
-            </h1>
-       
+            <h1> Hi there, I'm Ray </h1>
             <h2> Software Engineer </h2>
-            <p> Currently working at Palo Alto Networks. I have graduated from UC Davis with a Bachelor's degree in Computer Science. I specialized in <span>cybersecurity</span>,<span> software development</span>,<span> and everything in between. </span></p>
+            <p> Currently working at Palo Alto Networks in Layer 7 Security and Cloud Dev Team</p>
+            <p> Building high scale, high performance common software stack for Next-Generation Firewalls with an indepth knowledge on network packets, content and threat inspection, WildFire, and more. </p>
+            <p> Passionate in <span>cybersecurity</span>,<span> software development</span>,<span> AI , and everything in between. </span></p>
             
             
           <div className="social-icons">
@@ -65,7 +69,7 @@ const Index = center => (
         
 
         </div>
-        
+        </div>
         
 
  

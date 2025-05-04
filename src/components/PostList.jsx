@@ -81,9 +81,12 @@ const Image = styled.div`
   bottom: 0;
   z-index: 1;
   object-fit: cover;
-  border-radius: ${props => props.theme.borderRadius.default};
+  width: 95%; /* Example: Make the width 80% of the parent */
+  height: 95%; /* Example: Make the height 80% of the parent */
+  margin: auto; /* Center the smaller image within the parent */
+  
   img {
-    border-radius: ${props => props.theme.borderRadius.default};
+    border-radius: 30px; /* Ensure the actual image also respects the border-radius */
   }
   > div {
     position: static !important;
