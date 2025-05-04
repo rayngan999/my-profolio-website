@@ -57,7 +57,7 @@ This class defined a wallet that contains all the information related to the log
 
 ###Api.swift
 
-After the `Api.verifyCode` is used and successfully verified by the user without any error, the `response` contains the information that is related to the phone number that is sent back from the server.
+After the 'Api.verifyCode' is used and successfully verified by the user without any error, the 'response' contains the information that is related to the phone number that is sent back from the server.
 
 <img src ="https://i.ibb.co/VQh8RB5/api.png">
 

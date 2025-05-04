@@ -29,9 +29,7 @@ The target model is used to generate the targets for our loss function. After a 
 
 ###Results
 <img src="./rewards.png">
-<img src="./rewards2.png">
-
-
+<br>
 <img src="./losses.png">
 
 
