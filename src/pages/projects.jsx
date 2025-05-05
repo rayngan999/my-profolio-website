@@ -13,11 +13,11 @@ const PostWrapper = styled.div`
   justify-content: space-between;
   margin: 1rem 15% 1rem 15%;
   z-index: 0;
-  @media (max-width: 1500px) {
-    margin: 1rem 20% 1rem 20%;
+  @media (max-width: 1550px) {
+    margin: 1rem 18% 1rem 18%;
   }
-  @media (max-width: 1100px) {
-    margin: 1rem 22% 1rem 22%;
+  @media (max-width: 900px) {
+    margin: 1rem 20% 1rem 20%;
   }
 `;
 const Index = ({ data }) => {

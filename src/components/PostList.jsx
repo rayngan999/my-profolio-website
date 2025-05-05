@@ -13,7 +13,7 @@ const Wrapper = styled.article`
   border-radius: ${props => props.theme.borderRadius.default};
   box-shadow: ${props => props.theme.shadow.feature.small.default};
   transition: ${props => props.theme.transitions.boom.transition};
-  height: 19rem;
+  height: 18rem;
   flex-basis: calc(99.9% * 1 / 3 - 1rem);
   max-width: calc(99.9% * 1 / 3 - 1rem);
   width: calc(99.9% * 1 / 3 - 1rem);
@@ -23,18 +23,18 @@ const Wrapper = styled.article`
     transform: scale(1.04);
   }
 
-  @media (max-width: 1500px) {
+  @media (max-width: 1550px) {
     flex-basis: calc(99.9% * 1 / 2 - 1rem);
     max-width: calc(99.9% * 1 / 2 - 1rem);
     width: calc(99.9% * 1 / 2 - 1rem);
-    height: 18rem;
+    height: 15rem;
   }
 
-  @media (max-width: 1110px) {
+  @media (max-width: 900px) {
     flex-basis: 100%;
     max-width: 100%;
     width: 100%;
-    height: 15rem;
+    height: 13rem;
   }
 `;
 
